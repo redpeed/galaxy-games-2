@@ -7,7 +7,6 @@ import Footer from "@/components/common/Footer";
 import {GoogleTagManager} from '@next/third-parties/google'
 import {PostHogProvider} from './providers'
 
-
 const exo = localFont({
   src: [
     {
