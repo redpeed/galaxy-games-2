@@ -1,0 +1,289 @@
+@tailwind components;
+
+@layer components {
+
+  .btn-primary {
+    @apply bg-gradient-to-b tracking-[2.2px] from-[#510bbc] to-[#210fb4] text-white uppercase text-sm py-2 rounded-full hover:bg-gradient-to-t hover:to-purple-800 hover:from-indigo-800 duration-300 before:ease-out relative overflow-hidden transition-all 2xl:py-2 2xl:text-lg;
+  }
+
+  /* Custom styles for navbar items */
+  .navbar-item {
+    position: relative; /* To position the pseudo-element correctly */
+    padding-left: 1.75rem; /* Equivalent to Tailwind's px-7 */
+    padding-right: 1.75rem;
+  }
+
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; /* Adjust to position below the text */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: shine 2s infinite ease-in-out;
+  }
+
+  /* Styles for the lens flare image to appear on hover */
+  .navbar-item::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(100% + -12px); /* Positions the image below the link */
+    width: 176px; /* Adjust to match your image size */
+    height: 48px; /* Adjust to match your image size */
+    background-image: url('/desktop/Lens_Flare_purple_PNG.png'); /* Ensure the path is correct */
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+    pointer-events: none;
+  }
+
+  .navbar-item:hover::after {
+    opacity: 1; /* Shows the image on hover */
+  }
+
+  .nav-item.active::after {
+    opacity: 1;
+    background: linear-gradient(45deg, #fff 25%, transparent 75%);
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.5);
+    width: 10px;
+    height: 10px;
+  }
+
+  @keyframes shine {
+    0%,
+    100% {
+      opacity: 0;
+      transform: translateX(-50%) scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-50%) scale(1.5);
+    }
+  }
+
+
+  .embla {
+    max-width: 15rem;
+    margin: auto;
+    --slide-height: 15rem;
+    --slide-spacing: 1rem;
+    --slide-size: 100%;
+  }
+  .embla_desktop {
+    max-width: 62rem;
+    width: 100%;
+    margin: auto;
+    --slide-height: 13rem;
+    --slide-spacing: 0rem;
+    --slide-size: 25%;
+  }
+  .embla__viewport {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+  }
+  .embla__slide__number {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--slide-height);
+    user-select: none;
+  }
+  .embla__controls {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    gap: 1.2rem;
+    margin-top: 0.4rem;
+  }
+  .embla__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+    align-items: center;
+  }
+  .embla__button {
+    /* -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+    -webkit-appearance: none; */
+    appearance: none;
+    touch-action: manipulation;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 3.6rem;
+    height: 3.6rem;
+    z-index: 1;
+    /* color: var(--text-body); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .embla__button:disabled {
+    color: #686868;
+  }
+  .embla__button__svg {
+    width: 35%;
+    height: 35%;
+  }
+
+  @media (min-width: 641px) and (max-width: 1042px) {
+    .embla_desktop {
+      max-width: 43rem;
+      --slide-size: 33%;
+      --slide-height: 13rem;
+    }
+  }
+
+  @media (min-width: 1042px) {
+    .embla_desktop {
+      max-width: 62rem;
+      width: 100%;
+      margin: auto;
+      --slide-height: 13rem;
+      --slide-spacing: 0rem;
+      --slide-size: 25%;
+    }
+  }
+
+  .gradient-04 {
+    position: absolute;
+    width: 50px;
+    height: 40vh;
+
+    background: rgba(169, 75, 232, 1);
+    filter: blur(200px);
+    /* transform: rotate(-53.13deg); */
+  }
+
+  @keyframes scrollLeft {
+    to {
+      left: -200px;
+    }
+  }
+
+  @keyframes scrollRight {
+    to {
+      right: -200px;
+    }
+  }
+
+  .itemLeft,
+  .itemRight {
+    width: 200px;
+    height: 100px;
+    padding: 6px;
+    background-color: #191933;
+    border-radius: 6px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+  }
+
+  .itemLeft {
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+  }
+
+  .itemRight {
+    right: max(calc(200px * 8), calc(100% + 200px));
+    animation-name: scrollRight;
+  }
+
+  .item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .wrapper {
+    margin-top: 2rem;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0)
+    );
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-twinkle {
+    animation: twinkle 4s ease-in-out infinite;
+  }
+
+
+}
