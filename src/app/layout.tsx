@@ -64,6 +64,9 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://www.galaxygamestudio.io/'),
   publisher: 'Galaxy Games',
+  alternates: {
+    canonical: 'https://www.galaxygamestudio.io/'
+  },
   keywords: ["Galaxy Games", "blockchain gaming", "Web3 games", "NFT gaming", "sci-fi games", "crypto gaming", "GameFi", "play-to-earn", "gaming studio", "blockchain technology"],
 };
 
