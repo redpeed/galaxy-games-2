@@ -23,9 +23,9 @@ function Roadmap() {
           width={160}
           height={64}
         />
-        <h1 className="text-4xl uppercase tracking-wide -mt-3 md:-mt-14 mb-3 md:mb-16">
+        <h4 className="text-4xl uppercase tracking-wide -mt-3 md:-mt-14 mb-3 md:mb-16">
           Roadmap
-        </h1>
+        </h4>
         <EmblaCarouselDesktop />
         <EmblaCarousel />
       </div>
