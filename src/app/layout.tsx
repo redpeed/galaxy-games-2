@@ -6,7 +6,6 @@ import localFont from "next/font/local";
 import Footer from "@/components/common/Footer";
 import {GoogleTagManager} from '@next/third-parties/google'
 import {PostHogProvider} from './providers'
-import Head from "next/head";
 
 const exo = localFont({
   src: [
@@ -62,7 +61,10 @@ export const metadata: Metadata = {
     description: "Galaxy Games blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
     title: "Galaxy Games",
     images: ['https://opengraph.b-cdn.net/production/images/e7f924aa-4b71-4380-a18b-ec23b4e1732f.png?token=fGrRMfeP5DvBpMuc23-vy6zqwrsPa2e59NjMovPt23g&height=630&width=1200&expires=33272453739']
-  }
+  },
+  metadataBase: new URL('https://www.galaxygamestudio.io/'),
+  publisher: 'Galaxy Games',
+  keywords: ["Galaxy Games", "blockchain gaming", "Web3 games", "NFT gaming", "sci-fi games", "crypto gaming", "GameFi", "play-to-earn", "gaming studio", "blockchain technology"],
 };
 
 export default function RootLayout(
@@ -73,9 +75,7 @@ export default function RootLayout(
   }>) {
   return (
     <html lang="en">
-    <Head>
-      <link rel="canonical" href={'https://www.galaxygamestudio.io/'}/>
-    </Head>
+
     <AOSInit/>
     <GoogleTagManager gtmId="G-HMR3V5WPCQ"/>
     <body
