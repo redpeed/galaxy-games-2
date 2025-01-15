@@ -28,9 +28,6 @@ function GalaxyGames() {
             />
           </div>
         </div>
-        {/* <h1 className="text-4xl uppercase text-white -mt-14 mb-16">
-          Galaxy Games
-        </h1> */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-7 lg:gap-12">
           <div
             data-aos="fade-up"

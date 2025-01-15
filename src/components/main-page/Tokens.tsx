@@ -43,9 +43,9 @@ function Tokens() {
             {/* image on right */}
             <div className="flex items-center justify-center w-64 2xl:w-72 ">
               <div className="flex-[0.7] text-left md:text-right rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h1 className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
+                <h2 className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
                   MAIN ECOSYSTEM <br /> PAYMENT METHOD
-                </h1>
+                </h2>
               </div>
               <div
                 className="flex items-center justify-center flex-[0.3] h-20 -ml-7 rotate-180"

@@ -6,6 +6,7 @@ import localFont from "next/font/local";
 import Footer from "@/components/common/Footer";
 import {GoogleTagManager} from '@next/third-parties/google'
 import {PostHogProvider} from './providers'
+import Head from "next/head";
 
 const exo = localFont({
   src: [
@@ -72,6 +73,9 @@ export default function RootLayout(
   }>) {
   return (
     <html lang="en">
+    <Head>
+      <link rel="canonical" href={'https://www.galaxygamestudio.io/'}/>
+    </Head>
     <AOSInit/>
     <GoogleTagManager gtmId="G-HMR3V5WPCQ"/>
     <body
