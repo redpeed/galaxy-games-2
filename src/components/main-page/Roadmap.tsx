@@ -19,7 +19,7 @@ function Roadmap() {
         <Image
           className="w-40 h-16 md:w-48 md:h-20 bg-cover -mt-6 md:mt-0 md:mb-10"
           src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-          alt=""
+          alt="Indicator"
           width={160}
           height={64}
         />

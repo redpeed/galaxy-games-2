@@ -14,7 +14,7 @@ function GalaxyGames() {
           <Image
             className="w-40 h-16 bg-cover mb-10 mx-auto"
             src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-            alt=""
+            alt="Indicator"
             width={160}
             height={64}
           />
@@ -22,7 +22,7 @@ function GalaxyGames() {
             <Image
               src="/desktop/logo_v.png"
               className="w-44 -mt-8 mb-16"
-              alt=""
+              alt="Galaxy Games Logo"
               width={176}
               height={54}
             />
@@ -50,7 +50,7 @@ function GalaxyGames() {
             <div className="absolute inset-0 bg-gradient-to-b  from-[#c65445]/30 to-transparent"></div>
             <div className="relative z-10 text-center">
               <div>
-                <Image src="/desktop/hero logo-04.png" alt="" width={280} height={41} />
+                <Image src="/desktop/hero logo-04.png" alt="Hero logo" width={280} height={41} />
               </div>
               <h2 className="text-[#ea513d] font-semibold">
                 Raiders of the Sonic Matter
@@ -83,7 +83,7 @@ function GalaxyGames() {
             <div className="absolute inset-0 bg-gradient-to-b  from-[#4868a5]/30 to-transparent pointer-events-none"></div>
             <div className="relative z-10 text-center">
               <div>
-                <Image src="/desktop/hero logo-04.png" alt="" width={280} height={41} />
+                <Image src="/desktop/hero logo-04.png" alt="Hero logo" width={280} height={41} />
               </div>
               <h2 className="text-[#4e7dd3] font-semibold">SURVIVAL</h2>
             </div>
@@ -115,7 +115,7 @@ function GalaxyGames() {
             <div>
               <div className="relative z-10 text-center">
                 <div>
-                  <Image src="/desktop/hero logo-04.png" alt="" width={280} height={41} />
+                  <Image src="/desktop/hero logo-04.png" alt="Hero logo" width={280} height={41} />
                 </div>
                 <h2 className="text-violet-700 font-semibold">MINI GAME</h2>
               </div>

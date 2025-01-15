@@ -16,7 +16,7 @@ function Tokens() {
           <Image
             className="w-40 h-16 bg-cover mb-10"
             src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-            alt=""
+            alt="Token Icon"
             width={160}
             height={64}
           />
@@ -33,7 +33,7 @@ function Tokens() {
         >
           <Image
             src="https://cdn.hauntedspace.io/galaxy-games/TOKEN_v3_PNG.webp"
-            alt=""
+            alt="Token Icon"
             className="w-32 md:hidden inline-block mb-10 md:mb-0 "
             width={128}
             height={128}
@@ -58,7 +58,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-07.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />
@@ -77,7 +77,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-12.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />
@@ -111,7 +111,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-08.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />
@@ -120,7 +120,7 @@ function Tokens() {
             <div className="relative">
               <Image
                 src="https://cdn.hauntedspace.io/galaxy-games/TOKEN_v3_PNG.webp"
-                alt=""
+                alt="Token Icon"
                 className="w-32 hidden md:inline-block rounded-full image-container"
                 width={128}
                 height={128}
@@ -140,7 +140,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-11.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />
@@ -173,7 +173,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-09.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />
@@ -192,7 +192,7 @@ function Tokens() {
                 <Image
                   src="/desktop/1-10.png"
                   className="w-8 rotate-180 bg-cover"
-                  alt=""
+                  alt="Token Icon"
                   width={32}
                   height={27}
                 />

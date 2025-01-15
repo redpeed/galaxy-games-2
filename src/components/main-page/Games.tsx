@@ -25,7 +25,7 @@ function Games() {
             <Image
               className="w-32 h-12 md:w-40 md:h-16  rotate-90 -ml-16 sm:ml-0"
               src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-              alt=""
+              alt="Indicator"
               width={128}
               height={48}
             />
@@ -37,7 +37,7 @@ function Games() {
                 <Image
                   src="/desktop/hero logo-04.png"
                   className="w-72 -ml-2"
-                  alt=""
+                  alt="Hero logo"
                   width={288}
                   height={42}
                 />
@@ -117,7 +117,7 @@ function Games() {
                 MULTI PLAYER
               </p>
               <div className="-mr-2">
-                <Image src="/desktop/hero logo-04.png" className="w-72" alt="" width={288} height={42} />
+                <Image src="/desktop/hero logo-04.png" className="w-72" alt="Hero logo" width={288} height={42} />
               </div>
               <h2 className="text-[#015cba] ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 SURVIVAL
@@ -126,7 +126,7 @@ function Games() {
             <Image
               className="w-32 h-12 md:w-40 md:h-16  rotate-90 -mr-[70px] md:mr-0 md:-ml-20 sm:ml-0"
               src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-              alt=""
+              alt="Indicator"
               width={128}
               height={48}
             />
@@ -151,7 +151,7 @@ function Games() {
               <Image
                 className="rounded-xl overflow-hidden mb-2 md:mb-0 max-w-full"
                 src="https://cdn.hauntedspace.io/galaxy-games/screen_Video_MultiPlayer.webp"
-                alt=""
+                alt="Multiplayer video thumbnail"
                 width={446}
                 height={265}
               />
@@ -173,7 +173,7 @@ function Games() {
             <Image
               className="w-32 h-12 md:w-40 md:h-16 rotate-90 -ml-16 sm:ml-0"
               src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-              alt=""
+              alt="Indicator"
               width={160}
               height={48}
             />
@@ -185,7 +185,7 @@ function Games() {
                 <Image
                   src="/desktop/hero logo-04.png"
                   className="w-72 -ml-2"
-                  alt=""
+                  alt="Hero logo"
                   width={280}
                   height={40}
                 />

@@ -26,7 +26,7 @@ function Hero() {
           <Image
             src="/desktop/logo_v.png"
             className="w-[18rem] 2xl:w-[30rem]"
-            alt=""
+            alt="Galaxy Games Logo"
             width={288}
             height={89}
           />
@@ -43,7 +43,7 @@ function Hero() {
       <div className={"absolute bottom-0 left-0 right-0 z-30"}>
         <Image
           src="/desktop/bottom-curve.png"
-          alt=""
+          alt="Decoration"
           fill
         />
       </div>

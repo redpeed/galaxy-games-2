@@ -13,7 +13,7 @@ function RoadmapCard({ heading, paragraph, span }: Props) {
       <Image
         className="w-40 h-16 bg-cover absolute -top-[21%] left-[15%]"
         src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-        alt=""
+        alt="indicator"
         width={160}
         height={64}
       />

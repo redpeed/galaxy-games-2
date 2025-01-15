@@ -129,8 +129,8 @@ function Navbar() {
       >
         <div className="flex items-center space-x-4 gap-3">
           <Link href={"/"} className="flex items-center justify-center gap-6">
-            <Image src={"/desktop/logo-one.svg"} alt="" className="w-7" width={28} height={28} />
-            <Image src={"/desktop/logo-two.svg"} alt="" className="w-20" width={80} height={25}/>
+            <Image src={"/desktop/logo-one.svg"} alt="Logo 1" className="w-7" width={28} height={28} />
+            <Image src={"/desktop/logo-two.svg"} alt="Logo 2" className="w-20" width={80} height={25}/>
           </Link>
 
           <ul className="hidden lg:flex uppercase tracking-[2.7px]">
@@ -148,7 +148,7 @@ function Navbar() {
                   <Image
                     className="w-44 h-12 bg-cover mb-10 absolute left-0 top-5 2xl:top-6"
                     src="https://cdn.hauntedspace.io/galaxy-games/Lens_Flare_purple_PNG.webp"
-                    alt=""
+                    alt="Indicator"
                     width={176}
                     height={48}
                   />
