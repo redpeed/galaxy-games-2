@@ -21,10 +21,10 @@ function Tokens() {
             height={64}
           />
           <div className="text-center uppercase -mt-14 mb-16 space-y-2">
-            <h4 className="text-lg tracking-[2.7px] text-slate-200">
+            <div className="text-lg tracking-[2.7px] text-slate-200">
               Discover
-            </h4>
-            <h2 className="text-4xl">Gaga Tokens</h2>
+            </div>
+            <h3 className="text-4xl">Gaga Tokens</h3>
           </div>
         </div>
         <div
@@ -43,9 +43,9 @@ function Tokens() {
             {/* image on right */}
             <div className="flex items-center justify-center w-64 2xl:w-72 ">
               <div className="flex-[0.7] text-left md:text-right rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h2 className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
+                <div className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
                   MAIN ECOSYSTEM <br /> PAYMENT METHOD
-                </h2>
+                </div>
               </div>
               <div
                 className="flex items-center justify-center flex-[0.3] h-20 -ml-7 rotate-180"
@@ -83,9 +83,9 @@ function Tokens() {
                 />
               </div>
               <div className="flex-[0.7] text-left rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h3 className="w-[160px] 2xl:w-[200px] mr-auto ml-6">
+                <div className="w-[160px] 2xl:w-[200px] mr-auto ml-6">
                   STAKE TO ACCESS <br /> NON-INFLATIONARY PERKS
-                </h3>
+                </div>
               </div>
             </div>
           </div>
@@ -96,9 +96,9 @@ function Tokens() {
             {/* image on right */}
             <div className="flex items-center justify-center w-64 2xl:w-72  ">
               <div className="flex-[0.7] text-left md:text-right rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h3 className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
+                <div className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
                   ENABLES A SUSTAINABLE ECONOMY
-                </h3>
+                </div>
               </div>
               <div
                 className="flex items-center justify-center flex-[0.3] h-20 -ml-7 rotate-180"
@@ -146,9 +146,9 @@ function Tokens() {
                 />
               </div>
               <div className="flex-[0.7] text-left rounded-lg text-xs 2xl:text-base bg-[#100769] p-2 py-4">
-                <h3 className="w-[160px] 2xl:w-[200px] mr-auto ml-6">
+                <div className="w-[160px] 2xl:w-[200px] mr-auto ml-6">
                   DEFLATIONARY TOKENOMICS
-                </h3>
+                </div>
               </div>
             </div>
           </div>
@@ -158,9 +158,9 @@ function Tokens() {
             {/* image on right */}
             <div className="flex items-center justify-center w-64 2xl:w-72 ">
               <div className="flex-[0.7] text-left md:text-right rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h3 className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
+                <div className="w-[160px] 2xl:w-[200px] ml-auto mr-6 pl-4">
                   STAY COMMITTED <br /> AND GET BENEFITS
-                </h3>
+                </div>
               </div>
               <div
                 className="flex items-center justify-center flex-[0.3] h-20 -ml-7 rotate-180"
@@ -198,9 +198,9 @@ function Tokens() {
                 />
               </div>
               <div className="flex-[0.7] text-left rounded-lg text-xs 2xl:text-base bg-[#100769] p-2">
-                <h3 className="w-[160px] 2xl:w-[210px] mr-auto ml-6">
+                <div className="w-[160px] 2xl:w-[210px] mr-auto ml-6">
                   ONE TOKEN TO RULE THEM ALL <br /> (Games and Gamers)
-                </h3>
+                </div>
               </div>
             </div>
           </div>

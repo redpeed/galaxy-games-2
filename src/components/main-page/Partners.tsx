@@ -18,9 +18,9 @@ function Partners() {
           width={160}
           height={64}
         />
-        <h2 className="text-4xl uppercase text-white md:-mt-14 md:mb-16">
+        <h3 className="text-4xl uppercase text-white md:-mt-14 md:mb-16">
           Partners
-        </h2>
+        </h3>
         <div className="wrapper w-full">
           <div className="itemLeft item1 flex items-center justify-center">
             <Image src="/desktop/11-07.png" alt="Partner 1" width={188} height={111}/>

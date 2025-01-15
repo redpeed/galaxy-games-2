@@ -18,9 +18,9 @@ function RoadmapCard({ heading, paragraph, span }: Props) {
         height={64}
       />
       <div className="space-y-4 w-[170px] 2xl:text-[15px]">
-        <h4 className="tracking-[2.7px]">
+        <div className="tracking-[2.7px]">
           {heading} <span className="text-[#4e7dd3]">{span}</span>
-        </h4>
+        </div>
         <p>{paragraph}</p>
       </div>
     </div>

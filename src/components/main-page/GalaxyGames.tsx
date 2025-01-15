@@ -125,13 +125,13 @@ function GalaxyGames() {
             </a>
           </div>
         </div>
-        <h3
+        <h2
           data-aos="fade-up"
           data-aos-delay="100"
           className=" mt-14 text-slate-200 tracking-[2.7px]"
         >
           DISCOVER OUR UNIVERSE
-        </h3>
+        </h2>
       </div>
     </div>
   );

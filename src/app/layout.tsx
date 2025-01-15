@@ -55,7 +55,7 @@ const chakraPetch = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Galaxy Games",
+  title: "Galaxy Games: Explore Immersive Gaming Universes",
   description: "Galaxy Games blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
   openGraph: {
     description: "Galaxy Games blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",

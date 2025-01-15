@@ -42,23 +42,13 @@ function Games() {
                   height={42}
                 />
               </div>
-              <h2 className="text-[#c65445] font-exo text-sm 2xl:text-lg md:text-lg font-semibold">
+              <p className="text-[#c65445] font-exo text-sm 2xl:text-lg md:text-lg font-semibold">
                 Raiders of the Sonic Matter
-              </h2>
+              </p>
             </div>
           </div>
           <div className=" flex md:flex-row flex-col items-center justify-between max-w-4xl 2xl:max-w-7xl mx-auto  md:pr-10 mt-5 md:gap-y-0 gap-y-7 text-center md:text-left px-7 md:px-0">
             <div data-aos="fade-right" className='md:w-[50%] sm:w-[80%] w-[95%] 2xl:w-[45%]'>
-              {/* <video
-                className="rounded-2xl overflow-hidden mb-2 md:mb-0 md:h-[250px]"
-                autoPlay
-                muted
-                loop
-                playsInline
-              >
-                <source src="/desktop/hauntedSpace2.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video> */}
               <LiteYouTubeEmbed
                 id={"LZ45WHLBlkc"}
                 title="YouTube video player"
@@ -71,15 +61,7 @@ function Games() {
                 Survive in the Haunted Space, find out what happened to humanity
                 and to your body
               </p>
-              {/* <a
-                className=" tracking-widest btn-primary flex items-center justify-center gap-2 px-8 mb-3 mx-auto md:mx-0"
-                href={'https://platform.hauntedspace.io/launcher '}
-                target="blank"
-              >
-                <span>PLAY NOW</span>
-                <span>|</span>
-                <span className="text-xs">BETA</span>
-              </a> */}
+
               <a
                 className="btn-primary flex items-center justify-center gap-2 px-6 mb-3 mx-auto md:mx-0 w-[200px] 2xl:w-[260px] text-center"
                 href={'https://platform.hauntedspace.io/launcher '}
@@ -92,11 +74,7 @@ function Games() {
               <p className="text-xs 2xl:text-base mb-7 text-slate-400">
                 *Genesis Pass NFT required
               </p>
-              {/* <div className="flex items-center justify-center md:justify-start gap-5 text-white">
-                <FaPlaystation size={25} />
-                <FaXbox size={25} />
-                <FaSteam size={25} />
-              </div> */}
+
             </div>
           </div>
         </div>
@@ -119,9 +97,9 @@ function Games() {
               <div className="-mr-2">
                 <Image src="/desktop/hero logo-04.png" className="w-72" alt="Hero logo" width={288} height={42} />
               </div>
-              <h2 className="text-[#015cba] ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
+              <p className="text-[#015cba] ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 SURVIVAL
-              </h2>
+              </p>
             </div>
             <Image
               className="w-32 h-12 md:w-40 md:h-16  rotate-90 -mr-[70px] md:mr-0 md:-ml-20 sm:ml-0"
@@ -143,9 +121,7 @@ function Games() {
               >
                 Coming Soon
               </button>
-              {/* <div className="text-white">
-                <SiEpicgames size={25} className="mx-auto md:mx-0" />
-              </div> */}
+
             </div>
             <div data-aos="fade-left" className='2xl:w-[45%]'>
               <Image
@@ -190,9 +166,9 @@ function Games() {
                   height={40}
                 />
               </div>
-              <h2 className="text-violet-700 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
+              <p className="text-violet-700 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 MINIGAME
-              </h2>
+              </p>
             </div>
           </div>
           <div className="flex flex-col-reverse md:flex-row items-center justify-between max-w-4xl mx-auto 2xl:max-w-7xl relative text-center md:text-left">
