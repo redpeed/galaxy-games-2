@@ -1,6 +1,6 @@
 "use client"
 
-import { FaTelegram } from 'react-icons/fa6';
+import {FaTelegram} from 'react-icons/fa6';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 import React from "react";
@@ -10,13 +10,16 @@ function Games() {
   return (
     <div id="games">
       {/* GAME ONE */}
-      <div className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-one bg-cover bg-center relative z-10 bg-primary py-20 text-white px-0 md:px-2">
+      <div
+        className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-one bg-cover bg-center relative z-10 bg-primary py-20 text-white px-0 md:px-2">
 
-        <div className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#060c2487] to-transparent"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#060c2487] to-transparent"></div>
+        <div
+          className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#060c2487] to-transparent"></div>
+        <div
+          className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#060c2487] to-transparent"></div>
         <div className="absolute inset-0 bg-primary/60"></div>
         <div className="max-w-6xl 2xl:max-w-[90rem] mx-auto z-10 relative ">
-          <h1 className={"bg-transparent w-full text-white text-center text-xl md:text-[30px] mb-10"}>Galaxy Games: Explore Immersive Gaming Universes</h1>
+
           <div
             className="flex justify-start items-center mb-10 md:mb-0 px-10
          md:px-2"
@@ -47,7 +50,8 @@ function Games() {
               </p>
             </div>
           </div>
-          <div className=" flex md:flex-row flex-col items-center justify-between max-w-4xl 2xl:max-w-7xl mx-auto  md:pr-10 mt-5 md:gap-y-0 gap-y-7 text-center md:text-left px-7 md:px-0">
+          <div
+            className=" flex md:flex-row flex-col items-center justify-between max-w-4xl 2xl:max-w-7xl mx-auto  md:pr-10 mt-5 md:gap-y-0 gap-y-7 text-center md:text-left px-7 md:px-0">
             <div data-aos="fade-right" className='md:w-[50%] sm:w-[80%] w-[95%] 2xl:w-[45%]'>
               <LiteYouTubeEmbed
                 id={"LZ45WHLBlkc"}
@@ -81,9 +85,12 @@ function Games() {
       </div>
 
       {/* GAME TWO */}
-      <div className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-two bg-cover bg-center relative z-10 bg-primary py-20 text-white md:px-0">
-        <div className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#060c2487] to-transparent"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#060c2487] to-transparent"></div>
+      <div
+        className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-two bg-cover bg-center relative z-10 bg-primary py-20 text-white md:px-0">
+        <div
+          className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#060c2487] to-transparent"></div>
+        <div
+          className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#060c2487] to-transparent"></div>
         <div className="absolute inset-0 bg-primary/80"></div>
         <div className="max-w-6xl 2xl:max-w-[90rem] mx-auto  z-10 relative ">
           <div
@@ -95,7 +102,7 @@ function Games() {
                 MULTI PLAYER
               </p>
               <div className="-mr-2">
-                <Image src="/desktop/hero logo-04.png" className="w-72" alt="Hero logo" width={288} height={42} />
+                <Image src="/desktop/hero logo-04.png" className="w-72" alt="Hero logo" width={288} height={42}/>
               </div>
               <p className="text-[#015cba] ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 SURVIVAL
@@ -109,7 +116,8 @@ function Games() {
               height={48}
             />
           </div>
-          <div className="flex flex-col-reverse md:flex-row items-center justify-between text-center md:text-left max-w-4xl 2xl:max-w-7xl  mx-auto md:pl-10 mt-5 px-7 gap-y-7 md:pr-0 md:gap-y-0">
+          <div
+            className="flex flex-col-reverse md:flex-row items-center justify-between text-center md:text-left max-w-4xl 2xl:max-w-7xl  mx-auto md:pl-10 mt-5 px-7 gap-y-7 md:pr-0 md:gap-y-0">
             <div className="max-w-48" data-aos="fade-right">
               <p className="mb-7 leading-tight text-slate-200">
                 Join the army of raiders, fight against other player, earn real
@@ -137,10 +145,13 @@ function Games() {
       </div>
 
       {/* GAME THREE */}
-      <div className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-three bg-cover bg-center relative z-10 bg-primary py-10 text-white px-10 md:px-2">
+      <div
+        className="2xl:min-h-[70vh] 2xl:pt-52 bg-game-three bg-cover bg-center relative z-10 bg-primary py-10 text-white px-10 md:px-2">
         <div className="absolute inset-0 bg-primary/60"></div>
-        <div className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#01011f] to-transparent"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#01001e] to-transparent"></div>
+        <div
+          className="absolute top-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-b from-[#01011f] to-transparent"></div>
+        <div
+          className="absolute bottom-0 left-0 right-0 h-16 2xl:h-44 bg-gradient-to-t from-[#01001e] to-transparent"></div>
         <div className="max-w-6xl 2xl:max-w-[90rem] mx-auto  z-10 relative">
           <div
             className="flex justify-start items-center mb-10 md:mb-0"
@@ -171,7 +182,8 @@ function Games() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row items-center justify-between max-w-4xl mx-auto 2xl:max-w-7xl relative text-center md:text-left">
+          <div
+            className="flex flex-col-reverse md:flex-row items-center justify-between max-w-4xl mx-auto 2xl:max-w-7xl relative text-center md:text-left">
             <div className="max-w-48" data-aos="fade-right">
               <p className="mb-7 leading-tight text-slate-200">
                 Survive as long as you can, collect rewards and earn GAGA tokens
@@ -187,13 +199,13 @@ function Games() {
                 *Other platforms coming soon
               </p>
               {/* <div className="flex items-center justify-start gap-5 text-white "> */}
-                <a
-                  href="https://t.me/hauntedspace "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTelegram size={25} className="mx-auto md:mx-0" />
-                </a>
+              <a
+                href="https://t.me/hauntedspace "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTelegram size={25} className="mx-auto md:mx-0"/>
+              </a>
               {/* </div> */}
             </div>
             <div data-aos="fade-left">
@@ -209,7 +221,7 @@ function Games() {
                 loop
                 playsInline
               >
-                <source src="https://cdn.hauntedspace.io/galaxy-games/minigame.webm" type="video/webm" />
+                <source src="https://cdn.hauntedspace.io/galaxy-games/minigame.webm" type="video/webm"/>
                 Your browser does not support the video tag.
               </video>
             </div>
