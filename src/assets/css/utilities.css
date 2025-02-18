@@ -1,1 +1,10 @@
 @tailwind utilities;
+
+@layer utilities {
+  .z-unset {
+    z-index: unset;
+  }
+  .text-blurred {
+    filter: blur(1px);
+  }
+}

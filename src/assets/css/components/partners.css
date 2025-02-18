@@ -1,0 +1,64 @@
+@tailwind components;
+@layer components {
+  :root {
+    --running-line-item-width: 200px;
+
+  }
+  @keyframes scrollLeftAnimation {
+    from {
+      transform: translateX(max(calc(var(--running-line-item-width) * 8), 100%));
+    }
+    to {
+      transform: translateX(calc(var(--running-line-item-width) * -1))
+    }
+  }
+
+  @keyframes scrollRightAnimation {
+    from {
+      transform: translateX(calc(var(--running-line-item-width) * -1));
+    }
+    to {
+      transform: translateX(max(calc(var(--running-line-item-width) * 8), calc(100% + var(--running-line-item-width))));
+    }
+  }
+
+  .scrollLeft,
+  .scrollRight {
+    width: var(--running-line-item-width);
+    height: 100px;
+    padding: 6px;
+    background-color: #191933;
+    border-radius: 6px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    will-change: transform;
+  }
+
+  .scrollLeft {
+    animation-name: scrollLeftAnimation;
+  }
+
+  .scrollRight {
+    animation-name: scrollRightAnimation;
+  }
+
+  .wrapper {
+    margin-top: 2rem;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1) 20%,
+            rgba(0, 0, 0, 1) 80%,
+            rgba(0, 0, 0, 0)
+    );
+  }
+
+}

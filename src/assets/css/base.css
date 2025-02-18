@@ -1,1 +1,18 @@
 @tailwind base;
+
+:root {
+  --purple: #AB00FF;
+}
+
+body {
+  color: #fff;
+}
+
+@layer base {
+  p {
+    @apply font-light;
+  }
+  b {
+    @apply font-bold;
+  }
+}

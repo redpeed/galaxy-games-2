@@ -2,40 +2,36 @@ import type { Config } from "tailwindcss";
 
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'chakra-petch': ['var(--font-chakra-petch)', 'sans-serif'],
+    },
     extend: {
-      screens: {
-        '2xl': '2500px',
+      colors: {
+        purple: "var(--purple)",
+        "avatar-border": "#B843FF"
       },
       backgroundImage: {
-        hero: "url('https://cdn.hauntedspace.io/galaxy-games/generic%20clips_BG_Static.webp')",
-        web3: "url('https://cdn.hauntedspace.io/galaxy-games/space1.webp')",
-        'game-one': "url('https://cdn.hauntedspace.io/galaxy-games/space4.1_PNG.webp')",
-        'game-two': "url('https://cdn.hauntedspace.io/galaxy-games/multiplayer_BG_PNG.webp')",
-        'game-three': "url('https://cdn.hauntedspace.io/galaxy-games/arcade_PNG.webp')",
-        'galaxy-games': "url('https://cdn.hauntedspace.io/galaxy-games/space3_website_PNG.webp')",
-        roadmap: "url('https://cdn.hauntedspace.io/galaxy-games/striscia_Roadmap.webp')",
+        "hero-nebula": "url('/hero-nebula-bg.png')",
+        "light-up": "linear-gradient(180deg, rgba(255, 255, 255, 0) 42.5%, #FFFFFF 100%)",
+        "purple-gradient-down": "linear-gradient(180deg, var(--purple) 0%, rgba(171, 0, 255, 0) 100%)",
       },
-      backgroundColor: {
-        primary: '#01001e',
+      fontSize: {
+        20: '20px',
+        32: '32px',
+        50: '50px',
       },
-      backgroundPosition: {
-        'bottom-custom': 'center 90%', // Adjust '80%' to your desired value
+      spacing: {
+        15: "15px",
+        30: "30px",
+        50: "50px",
       },
-      fontFamily: {
-        exo: ['var(--font-exo)', 'sans-serif'],
-        'exo-bold': ['var(--font-exo)', 'sans-serif'],
-        'exo-extraBold': ['var(--exo)', 'sans-serif'],
-        'exo-semiBold': ['var(--exo)', 'sans-serif'],
-        'exo-medium': ['var(--exo)', 'sans-serif'],
-        'chakra-medium': ['ChakraPetch', 'sans-serif'],
-        'exo-regular': ['var(--exo)', 'sans-serif'],
-        'myriad-pro': ['var(--font-myriad-pro)', 'sans-serif'],
-      },
+      zIndex: {
+        99: "99",
+      }
     },
   },
   plugins: [],

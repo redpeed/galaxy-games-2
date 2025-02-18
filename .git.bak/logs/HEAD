@@ -1,0 +1,135 @@
+0000000000000000000000000000000000000000 98a593b34432a4a34d78adcd8d60c19c40f7c237 Vadym <unclevader@gmail.com> 1738061740 +0000	commit (initial): initial commit
+98a593b34432a4a34d78adcd8d60c19c40f7c237 0000000000000000000000000000000000000000 Vadym <unclevader@gmail.com> 1738061763 +0000	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 98a593b34432a4a34d78adcd8d60c19c40f7c237 Vadym <unclevader@gmail.com> 1738061763 +0000	Branch: renamed refs/heads/master to refs/heads/main
+98a593b34432a4a34d78adcd8d60c19c40f7c237 6633488c6203ba06c4fe0b07e2ae5b2da47970df Vadym <unclevader@gmail.com> 1738062301 +0000	commit: small fixes
+6633488c6203ba06c4fe0b07e2ae5b2da47970df 8693ddd2a3345659e789a97663a75f146e391e73 Vadym <unclevader@gmail.com> 1738095705 +0000	commit: gaga token section done
+8693ddd2a3345659e789a97663a75f146e391e73 e22508e40c878d67bfdaba86e791fc1a2f0962f7 Vadym <unclevader@gmail.com> 1738097592 +0000	commit: footer done
+e22508e40c878d67bfdaba86e791fc1a2f0962f7 40d6e95db741af532e01c1bdb6aa9a77e05302f6 Vadym <unclevader@gmail.com> 1738157402 +0000	commit: partners section done
+40d6e95db741af532e01c1bdb6aa9a77e05302f6 221c2224ada4697aa18ba203e217771cf9666d17 Vadym <unclevader@gmail.com> 1738158605 +0000	commit: partners section update
+221c2224ada4697aa18ba203e217771cf9666d17 4ca7bdf146013195ceda65d95b27716341238be2 Vadym <unclevader@gmail.com> 1738178160 +0000	commit: background styling updates
+4ca7bdf146013195ceda65d95b27716341238be2 aa419bfe2cab119c0b6fadb2ddd363f761114723 Vadym <unclevader@gmail.com> 1738181924 +0000	commit: red line extensions implemented
+aa419bfe2cab119c0b6fadb2ddd363f761114723 be834902eb71cbb10b70a9d50ac345cf21b6e4a7 Vadym <unclevader@gmail.com> 1738184449 +0000	commit: heads opacity implemented
+be834902eb71cbb10b70a9d50ac345cf21b6e4a7 292c57a75da75fb361bdbce1f30e99bd9b654aee Vadym <unclevader@gmail.com> 1738185036 +0000	commit: ts fixes
+292c57a75da75fb361bdbce1f30e99bd9b654aee a7b4697ee7bb7f2eb872a46865945dd3c39dc4f7 Vadym <unclevader@gmail.com> 1738240284 +0000	commit: desktop responsive added
+a7b4697ee7bb7f2eb872a46865945dd3c39dc4f7 54f41bc73873338c0865b53007bea6b50df1123e Vadym <unclevader@gmail.com> 1738257105 +0000	commit: real time coaching section added
+54f41bc73873338c0865b53007bea6b50df1123e 0fbff85da4f43f4d0874989dccfbfaac2c909a69 Vadym <unclevader@gmail.com> 1738266576 +0000	commit: path improvements
+0fbff85da4f43f4d0874989dccfbfaac2c909a69 ef0e856d99bb8cc6d7d8f5c3525d89756ae6adc6 Vadym <unclevader@gmail.com> 1738326036 +0000	commit: background updates
+ef0e856d99bb8cc6d7d8f5c3525d89756ae6adc6 09cdfaebc9fef3b3772319e7ed5bdc0819401266 Vadym <unclevader@gmail.com> 1738344944 +0000	commit: all sections done - first version
+09cdfaebc9fef3b3772319e7ed5bdc0819401266 43f05b07206e76cf4fdfb379872545fbe3ae9eee Vadym <unclevader@gmail.com> 1738350559 +0000	commit: MIA section static version done
+43f05b07206e76cf4fdfb379872545fbe3ae9eee 74cf09c4d65a6ff8f1e04e7b47dfb2db122fdb7a Vadym <unclevader@gmail.com> 1738534012 +0000	commit: parallax implemented
+74cf09c4d65a6ff8f1e04e7b47dfb2db122fdb7a 1caaaa73fe442c5ae350f841e346ba691663005a Vadym <unclevader@gmail.com> 1738534094 +0000	commit: parallax implemented
+1caaaa73fe442c5ae350f841e346ba691663005a 9c036b337e452ead07d06b593910eecad7f944bf Vadym <unclevader@gmail.com> 1738600523 +0000	commit: expandable menu button implemented
+9c036b337e452ead07d06b593910eecad7f944bf de7fd5c273f4d00eec7efb8ab052f16cdb6c6338 Vadym <unclevader@gmail.com> 1738693697 +0000	commit: polaris ai api section done
+de7fd5c273f4d00eec7efb8ab052f16cdb6c6338 10b99e9a2b45b7d09f5ab63b07d73060824815b9 Vadym <unclevader@gmail.com> 1738706826 +0000	commit: top side done
+10b99e9a2b45b7d09f5ab63b07d73060824815b9 6a8c25e4e75bcce04e07d741b77017941fe230f0 Vadym <unclevader@gmail.com> 1738786128 +0000	commit: mobile page wip
+6a8c25e4e75bcce04e07d741b77017941fe230f0 213d03d74030b62fafb4fcf503dc1021f7efe08a Vadym <unclevader@gmail.com> 1738790311 +0000	commit: mobile page wip
+213d03d74030b62fafb4fcf503dc1021f7efe08a 5112522d99bc05548d2087e68539b1f2ab5be9a1 Vadym <unclevader@gmail.com> 1738792596 +0000	commit: mobile page done
+5112522d99bc05548d2087e68539b1f2ab5be9a1 aa454b31f6fb76d6c8ef1cef05ec68f11f09fecb Vadym <unclevader@gmail.com> 1738866934 +0000	commit: nebula animation
+aa454b31f6fb76d6c8ef1cef05ec68f11f09fecb b720188222d07cdbe2f52141776f0c4408477dac Vadym <unclevader@gmail.com> 1738867015 +0000	commit: nebula animation
+b720188222d07cdbe2f52141776f0c4408477dac e357c72329ec5132ef3553e26f1e13e52933efb0 Vadym <unclevader@gmail.com> 1738867581 +0000	commit: ts fix
+e357c72329ec5132ef3553e26f1e13e52933efb0 94608eb566471a9d2a8e7b1419b6b1ba50b0b5d2 Vadym <unclevader@gmail.com> 1738868895 +0000	commit: removed blu bg
+94608eb566471a9d2a8e7b1419b6b1ba50b0b5d2 c1c3f27d0dacce4a02a1a89aa35249ef4f678fc3 Vadym <unclevader@gmail.com> 1738878476 +0000	commit: mobile restyling
+c1c3f27d0dacce4a02a1a89aa35249ef4f678fc3 f688243a6b56855a832813e4d2c2f661a3338539 Vadym <unclevader@gmail.com> 1738878736 +0000	commit: mobile restyling
+f688243a6b56855a832813e4d2c2f661a3338539 4697de6b0af4f8c6dbf97502f70bed669260c785 Vadym <unclevader@gmail.com> 1738878983 +0000	commit: mobile restyling
+4697de6b0af4f8c6dbf97502f70bed669260c785 c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 Vadym <unclevader@gmail.com> 1738926368 +0000	commit: mobile restyling
+c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 Vadym <unclevader@gmail.com> 1738932837 +0000	checkout: moving from main to tmp
+c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 c3e0b2b32fce06baedefbc76a4d3c24cc230f5aa Vadym <unclevader@gmail.com> 1738932851 +0000	commit: test updates
+c3e0b2b32fce06baedefbc76a4d3c24cc230f5aa c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 Vadym <unclevader@gmail.com> 1738932854 +0000	checkout: moving from tmp to main
+c11ccac7eb5595e56fa3c11cb056ad4ef44b8dd4 71a128783e31aff35154e1ae6eb81e7fee4cb33d Vadym <unclevader@gmail.com> 1738967967 +0000	commit: mobile redesign
+71a128783e31aff35154e1ae6eb81e7fee4cb33d afbbf9fc8c4c2459e85bcefb35f3a5282575af6b Vadym <unclevader@gmail.com> 1738968179 +0000	commit: mobile redesign
+afbbf9fc8c4c2459e85bcefb35f3a5282575af6b 6ab63a2588864d2ecad41bc2e38ffe9578de65ee Vadym <unclevader@gmail.com> 1739000462 +0000	commit: mobile redesign
+6ab63a2588864d2ecad41bc2e38ffe9578de65ee 600c65b2601de211d57d387e936130c7f869c77b Vadym <unclevader@gmail.com> 1739025268 +0000	commit: desktop redesign wip
+600c65b2601de211d57d387e936130c7f869c77b 426950180d3e748321b341b46f367efc05d7ff80 Vadym <unclevader@gmail.com> 1739041829 +0000	commit: desktop redesign wip
+426950180d3e748321b341b46f367efc05d7ff80 1fec8f30e76d110d3186a0f8fa48c7581b35ee34 Vadym <unclevader@gmail.com> 1739140933 +0000	commit: desktop redesign wip
+1fec8f30e76d110d3186a0f8fa48c7581b35ee34 bc84111439b6d0f3004301c9337670eefd8763de Vadym <unclevader@gmail.com> 1739198729 +0000	commit: test page
+bc84111439b6d0f3004301c9337670eefd8763de c30fe96ddf0396f6407e6e78825217d2e893a8f0 Vadym <unclevader@gmail.com> 1739225317 +0000	commit: mobile fixes
+c30fe96ddf0396f6407e6e78825217d2e893a8f0 8e1af8832a3550809c11588b6195813aec755f97 Vadym <unclevader@gmail.com> 1739225341 +0000	commit: mobile fixes
+8e1af8832a3550809c11588b6195813aec755f97 394c8fe634706bbe8d262de52249f486244887aa Vadym <unclevader@gmail.com> 1739226230 +0000	commit: mobile fixes
+394c8fe634706bbe8d262de52249f486244887aa dc38f2feb141872f76c0a49385bbfd48604302e8 Vadym <unclevader@gmail.com> 1739226686 +0000	commit: mobile fixes
+dc38f2feb141872f76c0a49385bbfd48604302e8 78dcee166e55cab4c0967cf9b77796365836e1c3 Vadym <unclevader@gmail.com> 1739281269 +0000	commit: curly corners component done
+78dcee166e55cab4c0967cf9b77796365836e1c3 78dcee166e55cab4c0967cf9b77796365836e1c3 Vadym <unclevader@gmail.com> 1739358637 +0000	checkout: moving from main to scrolling-experiments
+78dcee166e55cab4c0967cf9b77796365836e1c3 bdee04c53bf7fe1ba9336533732030060f24cc0f Vadym <unclevader@gmail.com> 1739358675 +0000	commit: parallax experiments
+bdee04c53bf7fe1ba9336533732030060f24cc0f 78dcee166e55cab4c0967cf9b77796365836e1c3 Vadym <unclevader@gmail.com> 1739358681 +0000	checkout: moving from scrolling-experiments to main
+78dcee166e55cab4c0967cf9b77796365836e1c3 288707f64893a3c0dee656013ab3b018c650bba0 Vadym <unclevader@gmail.com> 1739359110 +0000	commit: railway wip
+288707f64893a3c0dee656013ab3b018c650bba0 6532a26d760564a7201f536d7a3d2e135ac8f90c Vadym <unclevader@gmail.com> 1739386381 +0000	commit: railway lines implemented
+6532a26d760564a7201f536d7a3d2e135ac8f90c c57096041261cae54f0130496db5404f25342334 Vadym <unclevader@gmail.com> 1739392675 +0000	commit: curly corner bug fixed
+c57096041261cae54f0130496db5404f25342334 316b93ce705a1dd3f62d770f4de6bfff06b794a5 Vadym <unclevader@gmail.com> 1739393109 +0000	commit: avatar video added
+316b93ce705a1dd3f62d770f4de6bfff06b794a5 f010e96f209025e93d49f0e85107743c6782a88f Vadym <unclevader@gmail.com> 1739394559 +0000	commit: real time coaching videos added
+f010e96f209025e93d49f0e85107743c6782a88f 43f4f7d350bb835e8b508488b6aebc32ce0c1a28 Vadym <unclevader@gmail.com> 1739400192 +0000	commit: menu jumping wip
+43f4f7d350bb835e8b508488b6aebc32ce0c1a28 13ea7c82678f0c0239a9bf9efeaf8fa5c23e216a Vadym <unclevader@gmail.com> 1739443294 +0000	commit: tablet view fixes
+13ea7c82678f0c0239a9bf9efeaf8fa5c23e216a f5746f293296962b4ffeb11ee9b559323d882929 Vadym <unclevader@gmail.com> 1739448957 +0000	commit: mobile videos added
+f5746f293296962b4ffeb11ee9b559323d882929 2e1fab57fdd9e324d0db4b980b38061e8b508868 Vadym <unclevader@gmail.com> 1739449627 +0000	commit: updates
+2e1fab57fdd9e324d0db4b980b38061e8b508868 d1e758d53371ee31fd0136e4d7dfa12f32e520f7 Vadym <unclevader@gmail.com> 1739451917 +0000	commit: all videoas added
+d1e758d53371ee31fd0136e4d7dfa12f32e520f7 582455d8912383351f4d755e9a0021a665053c30 Vadym <unclevader@gmail.com> 1739453523 +0000	commit: bugs
+582455d8912383351f4d755e9a0021a665053c30 dcaed218fa6b27d8cf47b44f4305489ddf9bb876 Vadym <unclevader@gmail.com> 1739455535 +0000	commit: sticky scrolling bug fix
+dcaed218fa6b27d8cf47b44f4305489ddf9bb876 d433312ddf68fbff1fd6365ef9829816d40d09cd Vadym <unclevader@gmail.com> 1739455969 +0000	commit: sticky scrolling bug fix
+d433312ddf68fbff1fd6365ef9829816d40d09cd 4faf9548e2ca0c88c91c66fcc8a8037f6f070e01 Vadym <unclevader@gmail.com> 1739456102 +0000	commit: console.log removed
+4faf9548e2ca0c88c91c66fcc8a8037f6f070e01 92cda6e18d0378c3f52896dba9f0df7d656ca03e Vadym <unclevader@gmail.com> 1739458911 +0000	commit: responsive fixes
+92cda6e18d0378c3f52896dba9f0df7d656ca03e e1cf709dda395c8e5c87c7b406523d91608c7dfa Vadym <unclevader@gmail.com> 1739464947 +0000	commit: responsive fixes
+e1cf709dda395c8e5c87c7b406523d91608c7dfa e5133ef017916667ed7c2788757a4e90d4ba4343 Vadym <unclevader@gmail.com> 1739467441 +0000	commit: curly corner issue fixed completely
+e5133ef017916667ed7c2788757a4e90d4ba4343 d0cfbaf8cdae3f832d5b34e5fb8607748b6607ef Vadym <unclevader@gmail.com> 1739472451 +0000	commit: mobile fixes
+d0cfbaf8cdae3f832d5b34e5fb8607748b6607ef cea7243ff232778a595eadee5a6881e0fef6b87d Vadym <unclevader@gmail.com> 1739472581 +0000	commit: mobile fixes
+cea7243ff232778a595eadee5a6881e0fef6b87d 102b52880cf848f848be56841b7b30c140819fda Vadym <unclevader@gmail.com> 1739472728 +0000	commit: mobile fixes
+102b52880cf848f848be56841b7b30c140819fda 684311f4357786a6cd479063c220cacfc935a0e3 Vadym <unclevader@gmail.com> 1739473739 +0000	commit: mobile fixes
+684311f4357786a6cd479063c220cacfc935a0e3 f8493dd9b0789aae8eea5e001ba045137c2b2333 Vadym <unclevader@gmail.com> 1739481398 +0000	commit: fixes
+f8493dd9b0789aae8eea5e001ba045137c2b2333 6995565df787853f4162932b288f48234348f04f Vadym <unclevader@gmail.com> 1739528977 +0000	commit: fixes
+6995565df787853f4162932b288f48234348f04f b6123d5db9a432f3fac3f011bc5ffa846f0ca89c Vadym <unclevader@gmail.com> 1739529285 +0000	commit: fixes
+b6123d5db9a432f3fac3f011bc5ffa846f0ca89c aa3d10fddcaf5690a9dbfc8b8ced91c20601f28f Vadym <unclevader@gmail.com> 1739529388 +0000	commit: fixes
+aa3d10fddcaf5690a9dbfc8b8ced91c20601f28f dbeba1918a3eda847029f3d6aa21cfcfa85b9b7a Vadym <unclevader@gmail.com> 1739529824 +0000	commit: fixes
+dbeba1918a3eda847029f3d6aa21cfcfa85b9b7a 48cc508cb9ed64d7473929f1f3476dbc9a93e315 Vadym <unclevader@gmail.com> 1739533630 +0000	commit: nebula animation behind the layers
+48cc508cb9ed64d7473929f1f3476dbc9a93e315 69683d0bfd994186efee563ffb896606d83ead4e Vadym <unclevader@gmail.com> 1739535155 +0000	commit: nebula animation behind the layers
+69683d0bfd994186efee563ffb896606d83ead4e 8770bf77488dcecbeeecf1536baac0d581b9da61 Vadym <unclevader@gmail.com> 1739536701 +0000	commit: nebula animation behind the layers
+8770bf77488dcecbeeecf1536baac0d581b9da61 3aad5f0042b6ce2920b4015b03b6056cefb98c9b Vadym <unclevader@gmail.com> 1739538577 +0000	commit: bugs fixes
+3aad5f0042b6ce2920b4015b03b6056cefb98c9b 21277ffc4e8a3073d0916f8244db4c6ee302d9a8 Vadym <unclevader@gmail.com> 1739540800 +0000	commit: bugs fixes
+21277ffc4e8a3073d0916f8244db4c6ee302d9a8 04d94598c1131614bf18c659dab72cbc69548e4b Vadym <unclevader@gmail.com> 1739540998 +0000	commit: mobile view bug fix
+04d94598c1131614bf18c659dab72cbc69548e4b de4807d126df7e2283d46c47c5656de0d19b1c6f Vadym <unclevader@gmail.com> 1739543073 +0000	commit: mobile view bug fix
+de4807d126df7e2283d46c47c5656de0d19b1c6f cb100e21095a1557db0145cc68fe3a8b8ab16ba8 Vadym <unclevader@gmail.com> 1739543635 +0000	commit: fixes
+cb100e21095a1557db0145cc68fe3a8b8ab16ba8 df5824a3dcaf62d35874da92c4fa942dac07e85a Vadym <unclevader@gmail.com> 1739544541 +0000	commit: vertical lines under titles fix
+df5824a3dcaf62d35874da92c4fa942dac07e85a 71073f43de3f6ebb548df60396f360bc0207cb91 Vadym <unclevader@gmail.com> 1739544746 +0000	commit: added 50% opacity to the nebula animation
+71073f43de3f6ebb548df60396f360bc0207cb91 95136af2d7d4e518939b878a59e606664fc6c2d7 Vadym <unclevader@gmail.com> 1739547159 +0000	commit: increased opacity on the nebula animation
+95136af2d7d4e518939b878a59e606664fc6c2d7 fb3279d8514bb913a33dcc4e3ac5ce78abc95591 Vadym <unclevader@gmail.com> 1739547722 +0000	commit: increased opacity on the nebula animation
+fb3279d8514bb913a33dcc4e3ac5ce78abc95591 d6a8e5a87cc2711e429f65aadf0c9abc1b8d314f Vadym <unclevader@gmail.com> 1739551257 +0000	commit: space background updated
+d6a8e5a87cc2711e429f65aadf0c9abc1b8d314f 12035c3f5414adc4bad7f282c8011f3d78dc8a1f Vadym <unclevader@gmail.com> 1739551634 +0000	commit: space background updated
+12035c3f5414adc4bad7f282c8011f3d78dc8a1f 0367b9924f6037f792132671139a150ded264944 Vadym <unclevader@gmail.com> 1739553230 +0000	commit: space background updated
+0367b9924f6037f792132671139a150ded264944 e82a65f1edbf0644319a9c9a5883f007a629ef03 Vadym <unclevader@gmail.com> 1739564129 +0000	commit: fixes
+e82a65f1edbf0644319a9c9a5883f007a629ef03 f260b0edfc9ec87b63760e5e1d12a61b651a9dfa Vadym <unclevader@gmail.com> 1739564963 +0000	commit: fixes
+f260b0edfc9ec87b63760e5e1d12a61b651a9dfa 007f715b3f570347bdccfdbb942965ac30da273e Vadym <unclevader@gmail.com> 1739569087 +0000	commit: fixes
+007f715b3f570347bdccfdbb942965ac30da273e 38bf89a9131729583bf598830b3f74c9e1d8b7cd Vadym <unclevader@gmail.com> 1739569542 +0000	commit: fixes
+38bf89a9131729583bf598830b3f74c9e1d8b7cd fd7b6e6a5177914498d2e67562f8d74f29087d65 Vadym <unclevader@gmail.com> 1739570656 +0000	commit: fixes
+fd7b6e6a5177914498d2e67562f8d74f29087d65 0e881b7422444131cd2751a85abaa8735fe9d17a Vadym <unclevader@gmail.com> 1739623643 +0000	commit: fixes
+0e881b7422444131cd2751a85abaa8735fe9d17a d026a80c52726840545c9a54d07b0921cfc72cb6 Vadym <unclevader@gmail.com> 1739624034 +0000	commit: fixes
+d026a80c52726840545c9a54d07b0921cfc72cb6 af380668cc586ec83d9ed990cec430f8df2cd923 Vadym <unclevader@gmail.com> 1739793598 +0000	commit: fixes
+af380668cc586ec83d9ed990cec430f8df2cd923 112bc0ba7cff2ac028ecb2a996f206af4962e1a4 Vadym <unclevader@gmail.com> 1739793766 +0000	commit: fixes
+112bc0ba7cff2ac028ecb2a996f206af4962e1a4 be76a3bcae407b7f69afd33dcf6b5f8fb6051c8e Vadym <unclevader@gmail.com> 1739794495 +0000	commit: fixes
+be76a3bcae407b7f69afd33dcf6b5f8fb6051c8e b2afb6994a3629297490b0bf43a4673362ec2202 Vadym <unclevader@gmail.com> 1739796198 +0000	commit: fixes
+b2afb6994a3629297490b0bf43a4673362ec2202 023287acc9c39048fb425e07ac0fd44122ef90d8 Vadym <unclevader@gmail.com> 1739796649 +0000	commit: polaris video updated to vimeo
+023287acc9c39048fb425e07ac0fd44122ef90d8 3121108d17a8c2d4eb4d5d67a8cdaff4172cbe99 Vadym <unclevader@gmail.com> 1739796830 +0000	commit: brain image updated
+3121108d17a8c2d4eb4d5d67a8cdaff4172cbe99 22bae420d23f0fdb904518d855a34ad98f6af16f Vadym <unclevader@gmail.com> 1739797461 +0000	commit: navbar positioning bug fix
+22bae420d23f0fdb904518d855a34ad98f6af16f 5138f70c6de367dcb144a62a23c4b547fe35b02e Vadym <unclevader@gmail.com> 1739801558 +0000	commit: video updated to vimeo
+5138f70c6de367dcb144a62a23c4b547fe35b02e 326149dd3126a9ef89f01d2747017e06d172a671 Vadym <unclevader@gmail.com> 1739803638 +0000	commit: optimisation
+326149dd3126a9ef89f01d2747017e06d172a671 23ed92bfb01a6434052ac8919730efc80e0e44e8 Vadym <unclevader@gmail.com> 1739804485 +0000	commit: optimisation
+23ed92bfb01a6434052ac8919730efc80e0e44e8 0c7106fd91ad8e6e2fc775381cd16f51f5b1c665 Vadym <unclevader@gmail.com> 1739806252 +0000	commit: optimisation
+0c7106fd91ad8e6e2fc775381cd16f51f5b1c665 643d7a16d60d33c6b7e3ea4a4a12969bffca9a14 Vadym <unclevader@gmail.com> 1739806341 +0000	commit: optimisation
+643d7a16d60d33c6b7e3ea4a4a12969bffca9a14 720904e2069d32c89cf6ffeab2e43af7f67ea90e Vadym <unclevader@gmail.com> 1739806406 +0000	commit: optimisation
+720904e2069d32c89cf6ffeab2e43af7f67ea90e be310dd44aa94ef70112017c27ec74a2ca69d1a8 Vadym <unclevader@gmail.com> 1739811695 +0000	commit: navbar animation improved
+be310dd44aa94ef70112017c27ec74a2ca69d1a8 cd09b45f1906c5f65e77e9d5490cb7d2453b06f2 Vadym <unclevader@gmail.com> 1739811878 +0000	commit: updates
+cd09b45f1906c5f65e77e9d5490cb7d2453b06f2 79d29d7877e2ed73e398c1364120d55a23a057c7 Vadym <unclevader@gmail.com> 1739812293 +0000	commit: updates
+79d29d7877e2ed73e398c1364120d55a23a057c7 3ba242aec405f64d6bc604fa6ba9b439740adf6f Vadym <unclevader@gmail.com> 1739812993 +0000	commit: updates
+3ba242aec405f64d6bc604fa6ba9b439740adf6f 6c9440c4f33056c0625cc399e04c30f7ba7cb65f Vadym <unclevader@gmail.com> 1739813152 +0000	commit: updates
+6c9440c4f33056c0625cc399e04c30f7ba7cb65f 3cbe43946c5f078c797559e269d64492005469f2 Vadym <unclevader@gmail.com> 1739813643 +0000	commit: updates
+3cbe43946c5f078c797559e269d64492005469f2 7ecc1b0e9b42ad4ea56e0a63e013b9a0d25c7d32 Vadym <unclevader@gmail.com> 1739814874 +0000	commit: updates
+7ecc1b0e9b42ad4ea56e0a63e013b9a0d25c7d32 fe374962415edb23dbe4176bdeefa8c53093a2e0 Vadym <unclevader@gmail.com> 1739818003 +0000	commit: videos updated
+fe374962415edb23dbe4176bdeefa8c53093a2e0 2c09a4d37ade72fb5c25edb7e5938cdca36c08d5 Vadym <unclevader@gmail.com> 1739822246 +0000	commit: favicon update
+2c09a4d37ade72fb5c25edb7e5938cdca36c08d5 577fc47e55a7a72ea9801a75bca14b635221a8f3 Vadym <unclevader@gmail.com> 1739872481 +0000	commit: text position update
+577fc47e55a7a72ea9801a75bca14b635221a8f3 2d2981126581384ab8a892f9424093005fde0793 Vadym <unclevader@gmail.com> 1739873699 +0000	commit: text position update
+2d2981126581384ab8a892f9424093005fde0793 6187d4b1a2bddeab7a909783abdd857205f97321 Vadym <unclevader@gmail.com> 1739876937 +0000	commit: text position update
+6187d4b1a2bddeab7a909783abdd857205f97321 efbb0c32cfd55b9439d2a9d081add7c2b463caa8 Vadym <unclevader@gmail.com> 1739878222 +0000	commit: text position update
+efbb0c32cfd55b9439d2a9d081add7c2b463caa8 2c3a226cf518cea7ee3d003a2a51e4a7f03be59f Vadym <unclevader@gmail.com> 1739878536 +0000	commit: text position update
+2c3a226cf518cea7ee3d003a2a51e4a7f03be59f 2d08117cee8949d0a7fd8e9cd539ac8f30dfdb55 Vadym <unclevader@gmail.com> 1739878981 +0000	commit: navbar position update
+2d08117cee8949d0a7fd8e9cd539ac8f30dfdb55 0cf35df99c5e8e38da3e2b417890b728e0c88bda Vadym <unclevader@gmail.com> 1739879440 +0000	commit: navbar position update
+0cf35df99c5e8e38da3e2b417890b728e0c88bda 7967b12869802c3a8eb6f0871f9c248124895bae Vadym <unclevader@gmail.com> 1739882799 +0000	commit: navbar position update
+7967b12869802c3a8eb6f0871f9c248124895bae d51048763780ad4ff77447253abcbe516d917de3 Vadym <unclevader@gmail.com> 1739883033 +0000	commit: navbar position update
+d51048763780ad4ff77447253abcbe516d917de3 453e398eace47fff0a08fb4121251ad80858eb54 Vadym <unclevader@gmail.com> 1739883932 +0000	commit: navbar position update
+453e398eace47fff0a08fb4121251ad80858eb54 02ad943f6047bce04d1335de2f666eb9c5dec7c6 Vadym <unclevader@gmail.com> 1739886183 +0000	commit: vertical responsiveness
+02ad943f6047bce04d1335de2f666eb9c5dec7c6 799a24b95d1e914512559f6fa1b2c82281ff5681 Vadym <unclevader@gmail.com> 1739887029 +0000	commit: nebula animation fix
+799a24b95d1e914512559f6fa1b2c82281ff5681 09f3c42d8827372c4f8d78c3b0ef3bd97c7e0775 Vadym <unclevader@gmail.com> 1739888492 +0000	commit: removed test pages

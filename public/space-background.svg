@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <defs>
+        <filter id="star-glow" x="-100%" y="-100%" width="300%" height="300%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0.3" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <filter id="big-star-glow" x="-100%" y="-100%" width="300%" height="300%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <path id="star-shape" d="M0,-1 C0.2,-0.3 0.7,-0.3 1,0 C0.3,0.2 0.3,0.7 0,1 C-0.3,0.3 -0.7,0.3 -1,0 C-0.3,-0.2 -0.3,-0.7 0,-1" />
+    </defs>
+
+    <rect width="100%" height="100%" fill="#000000"/>
+
+    <g id="stars-small">
+        <!-- Evenly distributed small stars -->
+        <g transform="translate(50,30) scale(0.8)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.6"/>
+        </g>
+        <g transform="translate(200,50) scale(0.6)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.5"/>
+        </g>
+        <g transform="translate(350,40) scale(0.7)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.7"/>
+        </g>
+        <g transform="translate(500,30) scale(0.6)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.5"/>
+        </g>
+        <g transform="translate(650,45) scale(0.7)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.6"/>
+        </g>
+        <g transform="translate(125,100) scale(0.8)" filter="url(#star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.5"/>
+        </g>
+    </g>
+
+    <g id="stars-medium">
+        <!-- Evenly distributed medium stars -->
+        <g transform="translate(100,150) scale(1.2)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.8"/>
+        </g>
+        <g transform="translate(300,175) scale(1.0)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.7"/>
+        </g>
+        <g transform="translate(500,160) scale(1.1)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.75"/>
+        </g>
+        <g transform="translate(700,180) scale(0.9)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white" opacity="0.85"/>
+        </g>
+    </g>
+
+    <g id="stars-large">
+        <!-- Evenly distributed large stars -->
+        <g transform="translate(200,250) scale(1.5)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white">
+                <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+            </use>
+        </g>
+        <g transform="translate(400,275) scale(1.6)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white">
+                <animate attributeName="opacity" values="1;0.8;1" dur="4s" repeatCount="indefinite"/>
+            </use>
+        </g>
+        <g transform="translate(600,260) scale(1.4)" filter="url(#big-star-glow)">
+            <use href="#star-shape" fill="white">
+                <animate attributeName="opacity" values="1;0.75;1" dur="3.2s" repeatCount="indefinite"/>
+            </use>
+        </g>
+    </g>
+
+    <!-- Evenly distributed duplications -->
+    <use href="#stars-small" transform="translate(0, 200)"/>
+    <use href="#stars-small" transform="translate(0, 400)"/>
+    <use href="#stars-small" transform="translate(100, 300)"/>
+    <use href="#stars-small" transform="translate(-50, 100)"/>
+    <use href="#stars-small" transform="translate(150, 500)"/>
+
+    <use href="#stars-medium" transform="translate(0, 250)"/>
+    <use href="#stars-medium" transform="translate(50, 450)"/>
+    <use href="#stars-medium" transform="translate(-100, 350)"/>
+    <use href="#stars-medium" transform="translate(100, 150)"/>
+
+    <use href="#stars-large" transform="translate(0, 300)"/>
+    <use href="#stars-large" transform="translate(-150, 150)"/>
+    <use href="#stars-large" transform="translate(150, 450)"/>
+</svg>

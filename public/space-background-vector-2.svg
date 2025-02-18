@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2056.533 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #494949;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #1e1e1e;
+      }
+
+      .cls-4 {
+        fill: #9b9b9b;
+      }
+    </style>
+    <symbol id="Circle_star_3px" data-name="Circle star 3px" viewBox="0 0 3 3">
+      <circle class="cls-2" cx="1.5" cy="1.5" r="1.5"/>
+    </symbol>
+    <symbol id="Circle_star_black" data-name="Circle star black" viewBox="0 0 2 2">
+      <circle class="cls-3" cx="1" cy="1" r="1"/>
+    </symbol>
+    <symbol id="Circle_star_grey" data-name="Circle star grey" viewBox="0 0 1 1">
+      <circle class="cls-4" cx=".5" cy=".5" r=".5"/>
+    </symbol>
+    <symbol id="Circle_star_mooore_grey" data-name="Circle star mooore grey" viewBox="0 0 1 1">
+      <circle class="cls-1" cx=".5" cy=".5" r=".5"/>
+    </symbol>
+    <symbol id="Star_1px" data-name="Star 1px" viewBox="0 0 1.65 1.65">
+      <path class="cls-2" d="M1.65.825c-.65.097-.728.175-.825.825-.097-.65-.175-.728-.825-.825.65-.097.728-.175.825-.825.097.65.175.728.825.825Z"/>
+    </symbol>
+  </defs>
+  <g id="Livello_1" data-name="Livello 1">
+    <g>
+      <rect x="53.991" y=".5" width="1919" height="1079"/>
+      <path d="M1972.491,1v1078H54.491V1h1918M1973.491,0H53.491v1080h1920V0h0Z"/>
+    </g>
+  </g>
+  <g id="Livello_3" data-name="Livello 3">
+    <g>
+      <use width="3" height="3" transform="translate(919.407 402.864)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1000.054 693.546)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1092.154 803.021)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1117.341 826.982)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1186.285 891.047)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1329.27 943.862)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1666.488 283.628)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1067.972 71.743)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(452.28 316.816)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(202.27 592.668)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(297.161 744.265)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1539.608 24.974)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1895.508 789.745)" xlink:href="#Circle_star_3px"/>
+      <use width="3" height="3" transform="translate(1240.652 785.878)" xlink:href="#Circle_star_3px"/>
+    </g>
+    <use width="1" height="1" transform="translate(806.491 179)" xlink:href="#Circle_star_grey"/>
+  </g>
+  <g id="Livello_4" data-name="Livello 4">
+    <g>
+      <use width="1" height="1" transform="translate(242.243 143.912)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(196.827 238.327)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(238.665 342.047)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(282.289 412.929)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(420.237 569.091)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(681.696 808.865)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(792.409 879.756)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(876.029 887.099)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(965.159 839.907)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1121.159 540.044)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1380.851 331.059)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1518.867 222.009)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1713.065 149.432)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1865.593 173.081)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1916.469 285.739)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1876.55 556.336)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1802.081 779.683)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1749.386 906.826)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1667.619 1017.611)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1591.456 783.39)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1411.731 501.924)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1193.942 358.366)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(919.72 212.866)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(767.211 149.299)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(696.331 163.844)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(629.218 245.739)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(600.084 438.456)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(442.063 757.983)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(329.554 877.812)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(235.191 959.48)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(198.682 979.541)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(592.752 721.667)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(598.225 581.826)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(598.248 365.589)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(572.734 227.787)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(525.553 156.59)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(472.886 112.987)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(362.145 85.785)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(930.53 398.359)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1032.321 691.348)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1032.338 695.547)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(948.972 741.448)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(926.943 750.53)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(910.306 761.515)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(902.988 778.315)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1731.342 390.969)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1620.501 338.315)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1433.512 256.516)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1284.673 231.023)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1213.84 249.163)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1166.476 263.69)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1135.542 314.66)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1208.369 481.942)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1328.158 641.773)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1435.237 737.987)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1484.283 799.806)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1620.512 634.448)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1667.63 478.313)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1707.765 458.268)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1404.478 416.492)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(1153.735 369.349)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(852.35 274.686)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(572.774 209.087)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(309.526 200.318)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(191.335 273.082)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(149.592 414.695)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(149.646 534.552)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(166.027 657.976)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(166.035 732.397)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(166.037 763.55)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(563.559 402.019)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(712.705 354.767)" xlink:href="#Circle_star_grey"/>
+      <use width="1" height="1" transform="translate(879.817 293.017)" xlink:href="#Circle_star_grey"/>
+    </g>
+  </g>
+  <g id="Livello_5" data-name="Livello 5">
+    <g>
+      <use width="1.65" height="1.65" transform="translate(212.737 79.994)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(256.562 94.554)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(309.266 127.225)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(345.658 170.879)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(358.313 229.121)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(347.273 305.436)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(350.854 403.502)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(390.76 559.581)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(414.38 670.365)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(437.86 772.007)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(468.896 814.368)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(480.235 795.551)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(576.029 539.657)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(673.932 456.184)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(697.857 435.882)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(747.066 425.058)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1039.028 277.823)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(701.445 266.97)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(267.379 957.426)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(578.073 990.202)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1280.672 570.504)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(874.043 601.508)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(886.736 436.06)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1536.738 543.316)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1471.288 292.543)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1237.058 301.553)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1371.661 630.55)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1327.774 647.077)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1216.921 599.777)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1175.188 519.632)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1576.675 394.332)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1727.226 170.959)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1451.255 78.245)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1805.329 49.25)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1858.039 241.818)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1671.04 723.068)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1803.58 881.026)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1696.377 997.333)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1576.491 913.792)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(781.407 710.564)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(685.126 587.006)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(450.817 923.068)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(147.477 890.119)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(100.214 109.247)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1907.074 365.384)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1311.547 417.871)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1068.271 314.428)" xlink:href="#Star_1px"/>
+    </g>
+    <g>
+      <use width="1.65" height="1.65" transform="translate(979.251 987.913)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(669.555 914.085)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(585.793 662.786)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1107.051 155.917)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(918.555 97.477)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1364.916 54.501)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1638.229 101.9)" xlink:href="#Star_1px"/>
+      <use width="1.65" height="1.65" transform="translate(1842.079 433.626)" xlink:href="#Star_1px"/>
+    </g>
+  </g>
+  <g id="Livello_6" data-name="Livello 6">
+    <g>
+      <use width="1" height="1" transform="translate(1034.515 124.577)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(506.379 65.499)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(337.51 137.565)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(299.94 226.835)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(292.118 400.51)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(512.458 497.519)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(731.872 567.965)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(678.611 802.714)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(736.505 884.072)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1032.185 622.692)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1148.034 306.494)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1418.681 334.636)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1320.06 680.495)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1509.458 768.192)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1722.151 671.222)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1690.842 287.709)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1252.873 107.708)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1326.267 395.763)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1032.185 715.072)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(961.802 384.877)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(528.311 172.07)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(664.502 377.036)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(656.701 729.101)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(359.338 777.582)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(301.55 907.472)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(331.357 998.284)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(126.385 683.67)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(523.637 326.927)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(900.748 735.383)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(922.491 913.686)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1160.369 974.909)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1294.916 998.521)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1478.161 912.33)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1410.776 725.883)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1565.775 932.667)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1794.213 877.807)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1750.408 631.968)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1607.942 498.976)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1722.144 455.167)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1822.495 489.583)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1744.207 283)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1531.223 207.865)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1360.675 322.069)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1119.878 472.43)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1013.536 345.622)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(907.167 156.242)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(760.156 63.851)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(796.085 173.554)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(903.937 322.189)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(744.317 342.679)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(767.887 308.076)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1032.184 516.282)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1268.285 688.368)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1504.7 395.701)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1604.855 207.855)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(705.272 34.077)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(601.983 59.041)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(590.896 89.069)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(623.917 126.708)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(745.946 131.281)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1165.217 124.935)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1514.045 82.652)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1786.256 73.343)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1884.906 87.463)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1886.507 193.917)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1772.374 431.61)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1822.468 583.474)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1870.997 672.646)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1874.127 713.553)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1759.806 790.17)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1856.752 965.327)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1869.316 1001.528)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1701.821 965.508)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1678.339 769.828)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1576.654 635.158)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1474.912 560.012)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1442.095 807.343)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1402.978 882.494)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1334.113 929.463)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1368.642 965.65)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1291.682 920.03)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1174.467 830.837)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(938.541 924.933)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(783.516 998.351)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(728.599 1007.756)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(465.941 845.004)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(422.043 807.356)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(404.802 713.349)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(548.632 502.432)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(559.886 487.89)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(608.239 568.033)" xlink:href="#Circle_star_mooore_grey"/>
+    </g>
+    <g>
+      <use width="1" height="1" transform="translate(545.899 50.789)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(391.561 38.172)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(266.662 28.467)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(164.199 28.489)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(127.827 34.407)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(116.163 181.926)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(154.187 406.564)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(61.505 677.035)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(70.284 760.117)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(222.631 225.83)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(274.287 374.32)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(265.62 926.231)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(634.681 379.095)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(778.374 58.536)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(736.474 757.542)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(960.903 471.074)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1163.086 189.387)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(928.813 918.904)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1368.009 130.333)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1319.408 655.858)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1417.163 831.663)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1378.967 165.249)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1197.362 821.895)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1652.617 596.17)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1433.923 194.349)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1539.396 896.144)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1803.094 458.419)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1549 404.545)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1761.024 725.055)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1746.29 105.57)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1642.808 554.962)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1828.503 575.514)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1861.459 17.714)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1931.83 166.225)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1729.605 701.491)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1475.787 464.166)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1653.451 13.679)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1028.302 74.065)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1226.329 374.67)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1212.272 372.197)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1223.661 43.753)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1227.601 166.894)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1222.901 367.451)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1546.069 625.44)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(964.88 822.859)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(893.552 670.548)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1590.158 379.039)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1653.423 923.501)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1783.264 990.849)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1937.835 871.58)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1870.279 983.96)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1904.48 848.026)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1477.652 648.003)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1141.582 950.939)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(512.558 721.28)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(773.356 367.29)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(595.654 266.788)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(598.568 703.612)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(901.067 891.479)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(732.337 638.12)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(831.942 465.102)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(853.388 626.436)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(942.436 571.493)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(945.199 348.669)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1203.126 423.235)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1092.897 756.407)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1197.195 497.522)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(947.192 216.757)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(835.91 170.893)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(622.119 174.009)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(749.909 487.613)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(345.755 910.632)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(152.393 1008.251)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(309.67 1063.998)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(108.46 807.091)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(398.275 655.763)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(481.459 907.806)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(658.226 1014.313)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(637.604 778.014)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(429.601 561.017)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(677.588 486.636)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(713.696 745.629)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(913.169 877.399)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1230.469 531.92)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1462.571 285.434)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1411.233 609.854)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1377.893 838.552)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1647.744 480.704)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1378.117 144.361)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1442.753 136.487)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1602.847 239.268)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1074.181 183.487)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1054.649 273.442)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1275.688 442.688)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(938.446 590.536)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1087.95 633.338)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1041.928 432.014)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1055.633 395.58)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(936.383 425.95)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(488.187 202.326)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(457.042 50.856)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(618.271 29.231)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(613.306 130.857)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(334.933 345.916)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(410.898 530.506)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(498.011 498.369)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(489.165 437.664)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(229.39 574.582)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(527.257 645.906)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1052.753 790.701)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1408.346 491.561)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1451.031 282.307)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1664.415 342.863)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1595.844 709.544)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1805.149 718.139)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1794.103 421.032)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1818.914 412.15)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1737.433 774.05)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1787.295 848.227)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1520.343 898.164)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1222.758 982.259)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1225.704 920.575)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1256.178 519.025)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1123.015 411.369)" xlink:href="#Circle_star_mooore_grey"/>
+      <use width="1" height="1" transform="translate(1396.537 239.409)" xlink:href="#Circle_star_mooore_grey"/>
+    </g>
+    <g>
+      <use width="2" height="2" transform="translate(840.183 312.735)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(427.852 167.427)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(260.051 278.838)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(396.373 548.633)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(459.087 179.457)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(671.52 186.597)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(575.806 579.079)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(894.662 503.417)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1008.003 158.424)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1146.522 914.206)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1319.055 674.346)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1395.629 187.165)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1451.722 589.708)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1486.183 621.955)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1573.338 53.591)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1634.647 947.265)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1872.801 706.918)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1805.181 265.42)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(2054.533 355.68)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1617.209 392.276)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1894.011 380.601)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1579.326 464.544)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1884.31 128.437)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1738.995 524.833)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1660.996 240.887)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1818.217 354.742)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1522.329 162.414)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1305.884 525.697)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1553.573 167.337)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1205.311 573.221)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1633.859 173.202)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1145.031 329.501)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1423.223 292.809)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1246.711 311.711)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1475.069 186.194)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1412.391 321.677)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1348.435 617.311)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1308.314 376.922)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1384.468 617.298)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1350.976 574.16)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1262.024 664.651)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1090.682 517.58)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(529.779 275.325)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(377.037 526.864)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(778.058 831.12)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(152.515 410.058)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(317.102 276.48)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(61.671 799.906)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(106.913 817.79)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(0 784.564)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(225.898 484.601)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(311.124 882.927)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(133.985 896.115)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(521.427 1036.768)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(40.307 870.113)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(351.303 997.731)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(452.876 756.464)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(636.056 989.521)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(743.267 803.945)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(800.334 897.593)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(743.184 816.247)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(861.915 825.039)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(983.349 875.948)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1015.526 904.655)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1122.627 657.349)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1173.953 881.953)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1506.058 699.016)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1653.616 877.346)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1656.087 716.387)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1797.992 883.302)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1861.948 799.261)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1838.093 687.795)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1704.589 785.069)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1806.284 317.682)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1286.903 221.623)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1426.623 238.333)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1012.929 80.841)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(1020.185 134.177)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(745.989 6.66)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(679.769 101.274)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(318.166 4.385)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(270.779 173.379)" xlink:href="#Circle_star_black"/>
+      <use width="2" height="2" transform="translate(132.405 259.833)" xlink:href="#Circle_star_black"/>
+    </g>
+  </g>
+</svg>
