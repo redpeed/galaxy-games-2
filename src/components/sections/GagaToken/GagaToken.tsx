@@ -8,10 +8,10 @@ const GagaToken = () => {
     <PageSection
       pageTitle={"GAGA TOKEN"}
       titleClassName={"linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(115, 115, 115, 0) 101%)"}
-      wrapperClassName={"lg:w-[1546px] xl:w-full px-10 2xl:px-0"}
+      wrapperClassName={"lg:w-[1546px] xl:w-full lg:px-10 2xl:px-0"}
       className={"2xl:w-full"}
       pageSubtitle={<span>One token as a <b>payment method</b> of all our ecosystem From api to all our games (former
-        Haunted space)</span>}
+        Haunted Space)</span>}
       subtitleClassName={"w-full"}
     >
       <div className="absolute bottom-[100%] mb-[100px]" id={"gaga-token"}/>

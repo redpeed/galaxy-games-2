@@ -38,13 +38,14 @@ const Hero: FC<IProps> = ({heroAnchor,isHeroAnchorInView}) => {
         />
       </div>
 
-      <h1 className={"inline-block text-center text-[80px] font-light leading-[0.83]"}>
+      <h1 className={"inline-block text-center text-[64px] lg:text-[80px] font-light leading-[0.83]"}>
         LEVERAGE <b className={"text-purple"}>AI</b> AND <b className={"text-purple"}>WEB3</b> <br/>
         TO ENHANCE <b className={"text-purple"}>GAMING</b>
       </h1>
       <div
         className="mt-50 mb-[250px] size-[30px] bg-contain bg-no-repeat mx-auto"
         style={{backgroundImage: `url('/triangle-down.svg')`}}
+        data-base-screen-height-anchor
       />
     </section>
   );

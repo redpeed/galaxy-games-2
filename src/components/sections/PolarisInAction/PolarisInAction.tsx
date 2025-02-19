@@ -11,12 +11,12 @@ const PolarisInAction = () => {
       titleClassName={"relative flex items-center justify-center"}
       wrapperClassName={"lg:w-[1487px] xl:w-[1450px] px-10 2xl:px-0 relative "}
       subtitleClassName={"w-full "}
-      pageSubtitle={<>We use Polaris ai directly on our own web3 game Haunted
-        space, out soon on Playstation, Xbox and Epic.
+      pageSubtitle={<>We use Polaris AI directly on our own web3 game Haunted
+        Space, out soon on Playstation, Xbox and Epic.
       </>}
     >
       <div
-        className={"relative w-[1487px] h-0 pb-[103.2%] max-w-full -top-[300px] xl:-top-[400px] mt-[15%] lg:mt-[10%] xl:mt-[3%] -mb-[200px] xl:-mb-[300px]"}
+        className={"relative w-[160%] lg:w-[1487px] h-0 pb-[160%] -mb-[60%] lg:-mb-[200px] lg:pb-[103.2%] max-w-none lg:max-w-full -top-[300px] xl:-top-[400px] mt-[15%] lg:mt-[10%] xl:mt-[3%] xl:-mb-[300px]"}
       >
         <div className="absolute inset-0"
              style={{

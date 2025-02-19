@@ -7,6 +7,7 @@ import PurpleBorderBox from "@/components/common/PurpleBorderBox";
 import Image from "next/image"
 import dynamic from "next/dynamic";
 import useAnchorInView from "@/hooks/useAnchorInView";
+import Link from "next/link";
 
 const ReactPlayer = dynamic(() => import("react-player"), {ssr: false});
 
@@ -15,9 +16,12 @@ const PolarisInActionMobile = () => {
   const isVideoVisible = useAnchorInView(videoFrameRef)
 
   return (
-    <div className={"flex flex-col md:hidden relative"}>
+    <div
+      id={"polaris-in-action"}
+      className={"flex flex-col md:hidden relative"}
+    >
 
-      <div className="relative text-center mb-[60px] z-10">
+      <div className="relative text-center mb-[40px] z-10">
         <PurpleBorderBox
           className={"font-bold text-left text-[32px]"}
           style={{
@@ -39,9 +43,9 @@ const PolarisInActionMobile = () => {
 
       </div>
 
-      <MobileTextBox className={"mb-[100px]"}>
-        We use <b>Polaris ai</b> directly on our own <b>WEB3</b> game <b>Haunted
-        space</b>, out soon on Playstation, Xbox and Epic.
+      <MobileTextBox className={"mb-[100px] text-left"}>
+        We use <b>Polaris AI</b> directly on our own <b>WEB3</b> game <b>Haunted
+        Space</b>, out soon on Playstation, Xbox and Epic.
       </MobileTextBox>
 
 
@@ -65,13 +69,15 @@ const PolarisInActionMobile = () => {
               playing={isVideoVisible}
               loop={true}
               muted={true}
+              playsinline
             />
           </div>
         </div>
       </div>
 
-      <div
-        className="my-[120px] size-[30px] bg-contain bg-no-repeat mx-auto"
+      <Link
+        href={"#gaga-token"}
+        className=" block my-[120px] size-[30px] bg-contain bg-no-repeat mx-auto"
         style={{
           backgroundImage: `url('/triangle-down.svg')`,
         }}

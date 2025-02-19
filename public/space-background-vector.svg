@@ -29,7 +29,7 @@
   </defs>
   <g id="Livello_1" data-name="Livello 1">
     <g>
-      <rect x=".5" y=".5" width="1919" height="1079"/>
+      <rect x="0" y="0" width="1920" height="1080"/>
       <path d="M1919,1v1078H1V1h1918M1920,0H0v1080h1920V0h0Z"/>
     </g>
   </g>

@@ -27,7 +27,10 @@ const RealTimeCoachingMobile = () => {
   }, [emblaApi, logSlidesInView])
 
   return (
-    <div className="relative pt-[100px] z-30">
+    <div
+    id={"real-time-coaching"}
+      className="relative pt-[100px] z-30"
+    >
       <h2 className={"font-bold text-[60px] text-center"}>OUR TOOLS</h2>
 
       <div

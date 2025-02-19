@@ -25,7 +25,7 @@ const GagaFeature: FC<IProps> = (
         className || ''
       )}
     >
-      <div className={"text-sm xl:text-20 font-bold m-0 whitespace-nowrap uppercase"}>
+      <div className={"text-20 md:text-sm xl:text-20 font-bold m-0 whitespace-nowrap uppercase"}>
         <FadeInSection>
           {title}
         </FadeInSection>

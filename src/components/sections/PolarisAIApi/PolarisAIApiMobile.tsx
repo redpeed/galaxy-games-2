@@ -10,6 +10,7 @@ const PolarisAiApiMobile = () => {
   return (
     <>
       <div
+        id={"polaris-ai"}
         className="w-full h-[360px]"
         style={{
           backgroundImage: `url('/polaris-ai-mobile-header.svg')`,
@@ -38,7 +39,7 @@ const PolarisAiApiMobile = () => {
 
       <PurpleBorderBox
         className={"mb-[130px]"}
-        heading={<>ONE PLATFORM <br/>MULTIPLES TOOLS.</>}
+        heading={<>ONE PLATFORM <br/>MULTIPLE TOOLS.</>}
       >
         <span className={"inline-block mb-5"}>
           <b>Polaris AI</b> is the All-in-one Ai platform to enhance the gaming experience.

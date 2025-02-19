@@ -5,19 +5,20 @@ import BlurredBox from "@/components/common/BlurredBox";
 import React from "react";
 import CircledIcon from "@/components/common/CircledIcon";
 import dynamic from 'next/dynamic'
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+
+const ReactPlayer = dynamic(() => import("react-player"), {ssr: false});
 
 const Polaris = () => {
   return (
     <section
       className={cn(
-        "flex h-[1900px] xl:h-[1600px] w-full items-center flex-col z-20 relative px-20",
+        "flex lg:h-[1400px] xl:h-[1600px] w-full items-center flex-col z-20 relative px-0 lg:px-20",
       )}
     >
       <div className="absolute bottom-[100%] mb-[100px]" id={"ai"}/>
 
-      <div className="container flex flex-col items-center overflow-hidden h-full">
-        <div className={"polaris-ai-logo mb-50 "}>
+      <div className="w-full max-w-full container flex flex-col items-center overflow-hidden- h-full">
+        <div className={"polaris-ai-logo "}>
           <FadeInSection>
             <Image
               src={"/polaris-logo.svg"}
@@ -27,15 +28,16 @@ const Polaris = () => {
             />
           </FadeInSection>
         </div>
-        <h2 className={"font-bold text-[40px] mb-[25px]"}>
+        <h2 className={"font-bold text-[32px] lg:text-[40px] mb-[25px]"}>
           <FadeInSection>
-            ONE PLATFORM MULTIPLES TOOLS.
+            ONE PLATFORM MULTIPLE TOOLS.
           </FadeInSection>
         </h2>
-        <div className={"w-[1100px] max-w-full mx-auto text-center text-[24px]"}>
+        <div className={"w-[1100px] max-w-full mx-auto text-center font-light text-20 lg:text-[24px]"}>
           <FadeInSection>
-            <p className={"mb-50"}>Polaris AI is the All-in-one AI platform to enhance the gaming experience. <br/>It
+            <p>Polaris AI is the All-in-one AI platform to enhance the gaming experience. <br/>It
               has 2 key missions:</p>
+            <br/>
             <div>
               <li>To make gaming <b>accessible</b> for everyone</li>
               <li>To enhance the experience with friendly <b>real-time coaching</b>.</li>
@@ -45,20 +47,21 @@ const Polaris = () => {
 
 
         <div
-          className="flex flex-col xl:flex-row items-center xl:items-stretch xl:gap-40 justify-between w-full py-20 relative"
-          // className="bg-brain bg-center bg-no-repeat flex flex-col xl:flex-row items-center xl:items-stretch gap-40 justify-between w-full py-20 relative"
+          className="flex items-center xl:items-stretch lg:gap-40 justify-between w-full py-[140px] lg:py-20 relative"
         >
 
           <div className="absolute h-0 w-full self-center">
-            <div className="absolute w-full h-[1500px] top-0 bottom-0 bg-polaris-ai -z-10 -translate-y-1/2"/>
+            <div
+              className="absolute w-[300%] -left-[100%] lg:left-0 lg:w-full h-[1500px] top-0 bottom-0 bg-polaris-ai -z-10 -translate-y-1/2"/>
           </div>
 
           <PolarisFeature
+            wrapperClassName={"-ml-[15px] lg:ml-0"}
             outerBorderClassName={"linear-gradient(270deg, #FF2600 0%, rgba(255, 38, 0, 0.25) 110.75%)"}
             iconBorderClassName={"linear-gradient(360deg, #FF2600 0%, rgba(255, 38, 0, 0) 100%)"}
             icon={"/polaris-feature-icon-1.svg"}
             title={<span className={"flex items-center"}> POLARIS COACH</span>}
-            childrenClassName={"xl:text-right"}
+            childrenClassName={"text-right"}
             contentClassName={"xl:flex-row-reverse"}
           >
             <>
@@ -74,7 +77,8 @@ const Polaris = () => {
             </>
           </PolarisFeature>
 
-          <div className="relative xl:absolute w-[60%] h-0 pb-[25%] xl:top-1/2 xl:-translate-y-1/2 xl:left-[20%]">
+          <div
+            className="absolute w-full lg:w-[60%] lg:left-[20%] h-0 pb-[75%] lg:pb-[25%] lg:top-1/2 lg:-translate-y-1/2 ">
             <div className="absolute inset-0">
               <ReactPlayer
                 url='/brain-animation.webm'
@@ -83,13 +87,17 @@ const Polaris = () => {
                 playing={true}
                 loop={true}
                 muted={true}
+                playsinline
+
               />
             </div>
           </div>
 
           <PolarisFeature
+            wrapperClassName={"-mr-[15px] lg:mr-0"}
             outerBorderClassName={"linear-gradient(#FBC900,#FBC900)"}
             iconBorderClassName={"linear-gradient(180deg, #FFCC00 0%, rgba(255, 204, 0, 0) 100%)"}
+            contentClassName={"items-start"}
             icon={"/polaris-feature-icon-2.svg"}
             title={<>POLARIS ACCESSIBILITY</>}
           >
@@ -117,6 +125,7 @@ const Polaris = () => {
 };
 
 interface IPropsPolarisFeature {
+  wrapperClassName: string;
   outerBorderClassName: string;
   iconBorderClassName: string;
   icon: string;
@@ -128,6 +137,7 @@ interface IPropsPolarisFeature {
 
 function PolarisFeature(
   {
+    wrapperClassName,
     contentClassName,
     outerBorderClassName,
     iconBorderClassName,
@@ -139,14 +149,19 @@ function PolarisFeature(
 ) {
   return (
     <div
-      className={"relative flex flex-col items-start px-30 py-50 z-10 xl:w-5/12 min-w-[450px] xl:max-w-[500px]"}>
+      className={cn(
+        "relative flex flex-col self-stretch items-start px-30 py-50 z-10 xl:w-5/12 max-w-[250px] lg:min-w-[350px] xl:min-w-[450px] xl:max-w-[500px]",
+        wrapperClassName || ''
+      )}
+    >
       <BlurredBox
         borderBg={outerBorderClassName}
         bg={"linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 89.23%)"}
       />
 
-      <div className={cn("flex gap-[35px] items-center justify-between w-full mb-30", contentClassName || "")}>
-        <h4 className={"text-[40px] leading-none font-bold m-0"}>{title}</h4>
+      <div
+        className={cn("flex flex-col-reverse xl:flex-row gap-[22px] lg:gap-[35px] items-end lg:items-center justify-between w-full mb-30", contentClassName || "")}>
+        <h4 className={"text-[24px] lg:text-[40px] leading-none font-bold m-0"}>{title}</h4>
 
         <CircledIcon
           icon={icon}
@@ -154,7 +169,8 @@ function PolarisFeature(
           iconSize={74}
         />
       </div>
-      <div className={cn("flex flex-col gap-[25px] text-20 max-w-full", childrenClassName || '')}>
+      <div
+        className={cn("flex flex-col gap-[25px] text-base lg:text-20 font-light max-w-full", childrenClassName || '')}>
         {children}
       </div>
 

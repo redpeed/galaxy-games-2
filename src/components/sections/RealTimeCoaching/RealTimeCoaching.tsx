@@ -29,12 +29,9 @@ const RealTimeCoaching = () => {
   } = useRealTimeCoaching();
 
   return (
-    <div className={"relative -top-[900px] -mb-[900px] pb-[100px] z-10-"}>
+    <div className={"relative -top-[900px] -mb-[900px] xl:pb-[100px] z-10-"}>
       <div
-        className={"side-transparency w-full -mb-[200px] 2xl:-mb-[380px] bg-no-repeat bg-contain"}
-        style={{
-          backgroundImage: "url(/polaris-coach-pink-stripe.png)"
-        }}
+        className={"bg-pink-stripe-small lg:bg-pink-stripe side-no-mask lg:side-transparency w-full -mb-[200px] 2xl:-mb-[380px] bg-no-repeat bg-contain"}
       >
         <Image
           src={"/polaris-coach-header-bg.svg"}
@@ -51,8 +48,8 @@ const RealTimeCoaching = () => {
         preTitle={
           <div className={"flex flex-col items-center w-full top-[50px]"}>
             <div
-              className="hidden xl:block absolute z-10 left-0 bottom-[100%] h-[600px] translate-y-[50px] w-[1px] border-l border-purple "/>
-            <div className="hidden xl:block absolute z-10 left-0 top-[50px] h-[1px] w-full" style={{
+              className="hidden md:block absolute z-10 left-0 bottom-[100%] h-[700px] translate-y-[50px] w-[1px] border-l border-purple "/>
+            <div className="hidden md:block absolute z-10 left-0 top-[50px] h-[1px] w-full" style={{
               backgroundImage: "linear-gradient(to right, var(--purple) 0%, transparent 40%, transparent 60%, var(--purple) 100%)"
             }}/>
             <div className="absolute top-0 right-0" id={'chkp61'}/>
@@ -66,7 +63,7 @@ const RealTimeCoaching = () => {
         }
         titleBorderBg={"linear-gradient(#FF2600,#FF2600)"}
         titleClassName={"flex items-center justify-center"}
-        wrapperClassName={"lg:w-full xl:w-full z-30- relative"}
+        wrapperClassName={"lg:w-[1300px] xl:w-full lg:px-10 2xl:px-0 "}
         pageSubtitle={<div className={"flex flex-col relative"}>
           <div className="absolute top-[150px] xl:top-0" data-sticky-activator/>
           <div className="flex flex-col gap-5 font-light">
@@ -81,7 +78,7 @@ const RealTimeCoaching = () => {
       >
         <div className={"absolute -top-[250px] opacity-0 text-[red] z-50"} ref={anchorRef}>anchor</div>
 
-        <div className="hidden xl:block absolute right-0 top-[50px] h-full bg-purple w-[1px]">
+        <div className="hidden md:block absolute right-0 top-[50px] h-full bg-purple w-[1px]">
           <div
             className="absolute bottom-[30%] -translate-x-1/2 -rotate-90 size-[23px] bg-no-repeat bg-center bg-contain"
             style={{backgroundImage: "url('/triangle-icon-left.svg')"}}
@@ -89,10 +86,10 @@ const RealTimeCoaching = () => {
         </div>
 
 
-        <div className="flex flex-col xl:flex-row mt-[100px] w-full items-center">
-          <div className={"w-8/12 xl:w-[44%] flex-shrink-0 relative z-50 flex justify-end"} ref={videoFrameRef}>
+        <div className="flex flex-col xl:flex-row mt-[100px] w-full items-center justify-center">
+          <div className={"w-full lg:w-8/12 xl:w-[610px] flex-shrink-0 relative z-50 flex justify-end"} ref={videoFrameRef}>
             <div className="absolute top-0" ref={centralFrameRef}/>
-            <VideoFrame variant={"normal"} className={"xl:max-w-none pb-[59%]"}>
+            <VideoFrame variant={"normal"} className={"pb-[59%] xl:max-w-[620px]"}>
               {['1057594528', '1057594568', '1057594601'].map((videoId, i) => (
                 <div
                   className={cn(
@@ -109,16 +106,20 @@ const RealTimeCoaching = () => {
                     playing={isVideoVisible && activeItem === (i + 1)}
                     loop={true}
                     muted={true}
+                    playsinline
+
                   />
                 </div>
               ))}
             </VideoFrame>
           </div>
-          <div className={"sm:w-full xl:w-[56%] relative -ml-[22px] py-[25px] pr-[30px] pl-[80px] z-40"}>
-            <BlurredBox
-              borderBg={"linear-gradient(var(--purple),var(--purple))"}
-              bg={"linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(115, 115, 115, 0) 101%)"}
-            />
+          <div className={"sm:w-full xl:w-1/2 relative -ml-[22px] py-[25px] pr-[30px] pl-[80px] z-40"}>
+            <div className="hidden xl:block">
+              <BlurredBox
+                borderBg={"linear-gradient(var(--purple),var(--purple))"}
+                bg={"linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(115, 115, 115, 0) 101%)"}
+              />
+            </div>
             <RtcList activeItem={activeItem} setActiveItem={setActiveItem}/>
           </div>
         </div>

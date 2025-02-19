@@ -5,7 +5,10 @@ import PurpleBorderBox from "@/components/common/PurpleBorderBox";
 
 function PartnersMobile() {
   return (
-    <div className={"flex flex-col md:hidden relative"}>
+    <div
+    id={"partners"}
+      className={"flex flex-col md:hidden relative"}
+    >
       <PurpleBorderBox className={"text-[32px] font-bold mb-[20px]"}>
         <FadeInSection>
           PARTNERS

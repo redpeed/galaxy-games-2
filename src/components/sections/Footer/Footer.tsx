@@ -32,28 +32,28 @@ function Footer() {
               className="flex flex-col items-start justify-center uppercase text-sm 2xl:text-lg space-y-2 text-slate-400">
               <li>
                 <FadeInSection>
-                  <Link href="/#home" className="hover:text-gray-300">
+                  <Link href="#home" className="hover:text-gray-300">
                     Home
                   </Link>
                 </FadeInSection>
               </li>
               <li>
                 <FadeInSection>
-                  <Link href="/#ai" className="hover:text-gray-300">
+                  <Link href="#ai" className="hover:text-gray-300">
                     AI
                   </Link>
                 </FadeInSection>
               </li>
               <li>
                 <FadeInSection>
-                  <Link href="/#avatar" className="hover:text-gray-300">
+                  <Link href="#avatar" className="hover:text-gray-300">
                     Avatar
                   </Link>
                 </FadeInSection>
               </li>
               <li>
                 <FadeInSection>
-                  <Link href="/#gaga-token" className="hover:text-gray-300">
+                  <Link href="#gaga-token" className="hover:text-gray-300">
                     Token
                   </Link>
                 </FadeInSection>

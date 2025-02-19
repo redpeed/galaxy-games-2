@@ -5,6 +5,7 @@ import MobileTextBox from "@/components/common/MobileTextBox";
 import TwoSidesBlurredBox from "@/components/common/TwoSidesBlurredBox";
 import VideoVerticalFramed from "@/components/common/VideoVerticalFramed";
 import useAnchorInView from "@/hooks/useAnchorInView";
+import Link from "next/link";
 
 const MakeItAccessibleMobile = () => {
   const videoFrameRef = useRef<HTMLDivElement|null>(null);
@@ -73,8 +74,9 @@ const MakeItAccessibleMobile = () => {
       </MobileTextBox>
 
 
-      <div
-        className="mt-[120px] mb-[150px] size-[30px] bg-contain bg-no-repeat mx-auto"
+      <Link
+        href={"#polaris-in-action"}
+        className="block mt-[120px] mb-[150px] size-[30px] bg-contain bg-no-repeat mx-auto"
         style={{
           backgroundImage: `url('/triangle-down.svg')`,
         }}

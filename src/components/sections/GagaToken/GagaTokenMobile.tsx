@@ -5,10 +5,14 @@ import MobileTextBox from "@/components/common/MobileTextBox";
 import GagaFeature from "@/components/sections/GagaToken/components/GagaFeature";
 import FadeInSection from "@/components/common/FadeinSection";
 import PurpleBorderBox from "@/components/common/PurpleBorderBox";
+import Link from "next/link";
 
 const GagaTokenMobile = () => {
   return (
-    <div className={"flex flex-col md:hidden relative"}>
+    <div
+      id={"gaga-token"}
+      className={"flex flex-col md:hidden relative"}
+    >
       <PurpleBorderBox className={"text-[32px] font-bold mb-[25px]"}>
         <FadeInSection>
           GAGA TOKEN
@@ -17,7 +21,7 @@ const GagaTokenMobile = () => {
 
 
       <MobileTextBox className={"text-left mb-[35px]"}>
-        One token as a <b>payment method</b> of all our ecosystem From api to all our games (former Haunted space)
+        One token as a <b>payment method</b> of all our ecosystem From api to all our games (former Haunted Space)
       </MobileTextBox>
 
       <div
@@ -76,8 +80,9 @@ const GagaTokenMobile = () => {
         />
       </div>
 
-      <div
-        className="my-[120px] size-[30px] bg-contain bg-no-repeat mx-auto"
+      <Link
+        href={"#partners"}
+        className="block my-[120px] size-[30px] bg-contain bg-no-repeat mx-auto"
         style={{
           backgroundImage: `url('/triangle-down.svg')`,
         }}

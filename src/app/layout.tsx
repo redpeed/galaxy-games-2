@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${chakraPetch.variable} overflow-x-hidden font-chakra-petch w-full bg-space`}
+        className={`${chakraPetch.variable} overflow-x-hidden font-chakra-petch w-full bg-space scroll-smooth`}
       >
         {children}
       </body>

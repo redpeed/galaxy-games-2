@@ -17,8 +17,9 @@ function FooterMobile() {
   return (
     <footer className={"relative z-10"}>
 
-      <div
-        className="mt-[200px] mb-[150px] rotate-180 size-[30px] bg-contain bg-no-repeat mx-auto"
+      <Link
+        href={"#partners"}
+        className="block mt-[200px] mb-[150px] rotate-180 size-[30px] bg-contain bg-no-repeat mx-auto"
         style={{
           backgroundImage: `url('/triangle-down.svg')`,
         }}

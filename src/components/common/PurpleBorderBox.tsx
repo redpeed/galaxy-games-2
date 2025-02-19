@@ -10,7 +10,7 @@ interface IProps {
 }
 const PurpleBorderBox:FC<IProps> = ({heading, children, className, style}) => {
   return (
-    <div className={cn("border border-purple backdrop-blur p-3 overflow-hidden", className||'')} style={style}>
+    <div className={cn("border border-purple backdrop-blur p-3 overflow-hidden text-20", className||'')} style={style}>
       {heading && <h2 className={"font-bold text-32 leading-none mb-5 text-white"}>
         <FadeInSection>
           {heading}

@@ -1,20 +1,12 @@
 "use client"
 import Desktop from "@/components/pages/home/desktop";
 import Mobile from "@/components/pages/home/mobile";
-import {useMediaQuery} from "@/hooks/useMediaQuery";
-import {useEffect, useState} from "react";
+import useApp from "@/hooks/useApp";
+
 
 export default function Home() {
-  const isMobile = useMediaQuery('mobile');
-  const [zoom, setZoom] = useState(1);
-  useEffect(() => {
-    if (!isMobile) {
-      const baseEl = document.getElementById('home')
-      if (baseEl) {
-        setZoom(window.innerHeight / baseEl.getBoundingClientRect().height);
-      }
-    }
-  }, [isMobile])
+  const {isMobile, zoom} = useApp();
+
   return (
     <>
       {/*Desktop view*/}

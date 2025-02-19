@@ -23,22 +23,22 @@ const MakeItAccessible = () => {
       preTitle={
         <div className={"flex flex-col items-center w-full top-[50px]"}>
           <div
-            className="hidden xl:block absolute z-10 right-0 bottom-[100%] h-[100px] translate-y-[50px] w-[1px] border-l border-purple "/>
+            className="hidden md:block absolute z-10 right-0 bottom-[100%] h-[100px] translate-y-[50px] w-[1px] border-l border-purple "/>
 
-          <div className="hidden xl:block absolute z-10 left-0 top-[50px] w-full h-[1px]"
+          <div className="hidden md:block absolute z-10 left-0 top-[50px] w-full h-[1px]"
                style={{
                  backgroundImage: "linear-gradient(to right, #AB00FF 0%, #FBC900 10%, transparent 20%, transparent 80%, #FBC900 90%, #AB00FF 100%)"
                }}
           />
 
-          <div className="hidden xl:block absolute z-10 left-0 top-0 h-[550px] translate-y-[50px] w-[1px] border-l border-purple ">
+          <div className="hidden md:block absolute z-10 left-0 top-0 h-[950px] md:h-[1050px] lg:h-[550px] translate-y-[50px] w-[1px] border-l border-purple ">
             <div
               className="absolute top-[50%] -translate-x-1/2 -rotate-90 size-[23px] bg-no-repeat bg-center bg-contain"
               style={{backgroundImage: "url('/triangle-icon-left.svg')"}}
             />
           </div>
-          <div className="hidden xl:block absolute z-10 left-0 top-[600px] w-1/2 h-[1px] border-t border-purple "/>
-          <div className="hidden xl:block absolute z-10 left-1/2 top-[600px] w-[1px] h-[300px] border-l border-purple ">
+          <div className="hidden md:block absolute z-10 left-0 top-[1000px] md:top-[1100px] lg:top-[600px] w-1/2 h-[1px] border-t border-purple "/>
+          <div className="hidden md:block absolute z-10 left-1/2 top-[1000px] md:top-[1100px] lg:top-[600px] w-[1px] h-[200px] lg:h-[350px] border-l border-purple ">
             <div
               className="absolute top-[45%] -translate-x-1/2 -rotate-90 size-[23px] bg-no-repeat bg-center bg-contain"
               style={{backgroundImage: "url('/triangle-icon-left.svg')"}}
@@ -46,7 +46,7 @@ const MakeItAccessible = () => {
           </div>
         </div>
       }
-      className={"overflow-visible mb-[200px]"}
+      className={"overflow-visible xl:mb-[200px]"}
       bgElement={<>
         <div
         className="absolute bg-no-repeat bg-contain w-[47%] right-0 top-[50px] bottom-0 z-10"
@@ -67,7 +67,7 @@ const MakeItAccessible = () => {
       }
       titleClassName={"relative flex items-center justify-center"}
       titleBorderBg={"linear-gradient(#FBC900,#FBC900)"}
-      wrapperClassName={"lg:w-[1300px] xl:w-full px-10 2xl:px-0 "}
+      wrapperClassName={"lg:w-[1300px] xl:w-full lg:px-10 2xl:px-0 "}
       pageSubtitle={<FadeInSection>
         <p>Polaris ACCESSIBILITY breaks barriers making gaming <b>inclusive for everyone</b>. <br/>
           With <b>innovative tools</b> it ensures no one is left behind, no matter their challenges.
@@ -75,7 +75,7 @@ const MakeItAccessible = () => {
       </FadeInSection>}
       subtitleClassName={"w-full relative z-30"}
     >
-      <div className="flex gap-[50px] mt-[100px] w-full items-center ">
+      <div className="flex flex-col lg:flex-row gap-[50px] mt-[100px] w-full items-center ">
         <div
           className="absolute top-[50px] inset-0 z-10 mix-blend-luminosity"
           style={{
@@ -88,7 +88,7 @@ const MakeItAccessible = () => {
 
         </div>
 
-        <div className={"w-1/2 flex-shrink-0 relative z-30 flex justify-center"} ref={videoFrameRef}>
+        <div className={"w-full lg:w-1/2 flex-shrink-0 relative z-30 flex justify-center"} ref={videoFrameRef}>
           <VideoFrame variant={"normal"} className={"pb-[49%] xl:max-w-[620px]"}>
             <ReactPlayer
               url='https://vimeo.com/1057594331'
@@ -98,12 +98,14 @@ const MakeItAccessible = () => {
               playing={isVideoVisible}
               loop={true}
               muted={true}
+              playsinline
+
             />
           </VideoFrame>
         </div>
-        <div className={"w-1/2 relative z-20 flex items-center justify-end xl:pl-[50px]"}>
+        <div className={"lg:w-1/2 relative z-20 flex items-center justify-end xl:pl-[50px]"}>
           <FadeInSection>
-            <div className={"font-light text-[24px]"}>
+            <div className={"font-light text-20 lg:text-[24px] text-center lg:text-left"}>
               <b className={"uppercase"}>Physical Disabilities</b> <br/>
               Polaris provides flexible solutions: <br/>
               <li><b>Eye-tracking</b></li>

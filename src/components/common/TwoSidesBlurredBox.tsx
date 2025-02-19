@@ -21,7 +21,7 @@ const TwoSidesBlurredBox:FC<IProps> = ({title, children, color, className}) => {
 
       <BlurredTextBox
         outerBorderClassName={`linear-gradient(360deg, rgba(255, 0, 0, 0) 0%, ${color} 100%)`}
-        className={"-mt-[2px] py-5 px-3"}
+        className={"-mt-[2px] py-5 px-3 text-20"}
       >
         {children}
       </BlurredTextBox>

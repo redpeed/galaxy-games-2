@@ -16,7 +16,7 @@ const GameControl = () => {
       className={"relative flex px-10 items-center justify-center w-full"}
     >
       <div
-        className="absolute left-[3%] w-[10%] h-0 pb-[10%] bg-no-repeat bg-contain"
+        className="absolute left-[3%] w-[10%] h-0 pb-[10%] bg-no-repeat bg-contain hidden lg:block"
         style={{
           backgroundImage: `url(/game-control-left.svg)`,
         }}
@@ -42,6 +42,7 @@ const GameControl = () => {
               playing={isVideoVisible}
               loop={true}
               muted={true}
+              playsinline
 
             />
           </div>
@@ -50,7 +51,7 @@ const GameControl = () => {
       </div>
 
       <div
-        className="w-[10%] h-0 pb-[10%] absolute right-[3%] bg-no-repeat bg-contain"
+        className="w-[10%] h-0 pb-[10%] absolute right-[3%] bg-no-repeat bg-contain hidden lg:block"
         style={{
           backgroundImage: `url(/game-control-right.svg)`,
         }}

@@ -3,6 +3,7 @@ import EmblaCarousel from "@/components/common/Carousel/Carousel";
 import React from "react";
 import {EmblaOptionsType} from "embla-carousel";
 import PurpleBorderBox from "@/components/common/PurpleBorderBox";
+import Link from "next/link";
 
 const OPTIONS: EmblaOptionsType = {}
 
@@ -27,13 +28,14 @@ const AvatarSelectorMobile = () => {
         </PurpleBorderBox>
 
         <EmblaCarousel slides={[
-          <AvatarBox isTransparent={true} imageUrl={"/avatar-natalia.png"} />,
+          <AvatarBox isTransparent={true} imageUrl={"/avatar-natalia.png"}/>,
           <AvatarBox isTransparent={true} imageUrl={"/avatar-ettore.png"}/>,
           <AvatarBox isTransparent={true} imageUrl={"/avatar-homerino.png"}/>
         ]} options={OPTIONS}/>
 
-        <div
-          className="my-[180px] size-[30px] bg-contain bg-no-repeat mx-auto"
+        <Link
+          href={"#real-time-coaching"}
+          className="block my-[180px] size-[30px] bg-contain bg-no-repeat mx-auto"
           style={{
             backgroundImage: `url('/triangle-down.svg')`,
           }}
