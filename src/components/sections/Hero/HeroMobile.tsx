@@ -2,6 +2,7 @@ import Image from "next/image"
 import GalaxyGamesLogo from "@/components/common/GalaxyGamesLogo";
 import BlurredBoxRectangle from "@/components/common/BlurredBoxRectangle";
 import Link from "next/link";
+import React from "react";
 
 const HeroMobile = () => {
   return (
@@ -35,14 +36,14 @@ const HeroMobile = () => {
         <span className={"font-bold text-purple"}>GAMING</span>
       </p>
 
-      <Link href={"#polaris-ai"}>
-        <Image
-          src={"/triangle-down.svg"}
-          alt={"arrows-down"}
-          width={30}
-          height={23}
-        />
-      </Link>
+      <Link
+        href={"#polaris-ai"}
+        className="block size-[30px] bg-contain bg-no-repeat mx-auto"
+        style={{
+          backgroundImage: `url('/triangle-down.svg')`,
+        }}
+      />
+
     </section>
   );
 };
