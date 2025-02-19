@@ -6,7 +6,6 @@ import useApp from "@/hooks/useApp";
 
 export default function Home() {
   const {isMobile, zoom} = useApp();
-
   return (
     <>
       {/*Desktop view*/}
