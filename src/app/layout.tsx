@@ -1,6 +1,7 @@
 import type {Metadata, Viewport} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import {GoogleTagManager} from '@next/third-parties/google'
 
 export const viewport: Viewport = {
   initialScale: 1,
@@ -57,6 +58,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="G-HMR3V5WPCQ"/>
       <body
         className={`${chakraPetch.variable} overflow-x-hidden font-chakra-petch w-full scroll-smooth`}
       >

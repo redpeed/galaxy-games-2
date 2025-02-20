@@ -15,7 +15,7 @@ const GagaTokenMobile = () => {
     >
       <PurpleBorderBox className={"text-[32px] font-bold mb-[25px]"}>
         <FadeInSection>
-          GAGA TOKEN
+          GALAXY LAB TOKEN
         </FadeInSection>
       </PurpleBorderBox>
 

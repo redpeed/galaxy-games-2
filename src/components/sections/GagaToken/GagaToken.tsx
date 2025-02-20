@@ -6,7 +6,7 @@ import React from "react";
 const GagaToken = () => {
   return (
     <PageSection
-      pageTitle={"GAGA TOKEN"}
+      pageTitle={"GALAXY LAB TOKEN"}
       titleClassName={"linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(115, 115, 115, 0) 101%)"}
       wrapperClassName={"lg:w-[1546px] xl:w-full lg:px-10 2xl:px-0"}
       className={"2xl:w-full"}

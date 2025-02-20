@@ -102,7 +102,7 @@ const Navbar:FC<IProps> = ({isHeroAnchorInView}) => {
             <li><MenuItem url={"#home"} title={"Home"}/></li>
             <li><MenuItem url={"#ai"} title={"AI"}/></li>
             <li><MenuItem url={"#avatar"} title={"Avatar"}/></li>
-            <li><MenuItem url={"#gaga-token"} title={"GAGA TOKEN"}/></li>
+            <li><MenuItem url={"#gaga-token"} title={"GALAXY LAB TOKEN"}/></li>
           </ul>
         </div>
 
