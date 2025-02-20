@@ -14,7 +14,8 @@ import FooterMobileBg from "@/components/sections/Footer/FooterMobileBg";
 const Mobile = () => {
   return (
     <>
-      <div className="absolute inset-0 bg-space -z-10"/>
+      <div className="absolute inset-0 w-[calc(100%_+1px)] bg-black -z-20 "/>
+      <div className="absolute inset-0 bg-space -z-10" />
 
       <HeroMobile/>
       <PolarisAiApiMobile/>

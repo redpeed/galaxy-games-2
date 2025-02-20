@@ -38,10 +38,10 @@ function FooterMobile() {
       </div>
 
       <div className="flex justify-center gap-30 mt-15">
-        <a href="https://twitter.com/Galaxy_Games__" target="_blank" rel="noopener noreferrer"><FaXTwitter
+        <a href="https://x.com/Galaxy_Lab_" target="_blank" rel="noopener noreferrer"><FaXTwitter
           size={20}/></a>
         <a href="https://discord.gg/p6zZDvgNUW " target="_blank" rel="noopener noreferrer"><FaDiscord size={20}/></a>
-        <a href="https://t.me/hauntedspace " target="_blank" rel="noopener noreferrer"><FaTelegram size={20}/></a>
+        <a href="https://t.me/galaxylabofficial" target="_blank" rel="noopener noreferrer"><FaTelegram size={20}/></a>
       </div>
 
       <div className={"text-center mt-30 text-[10px]"}>

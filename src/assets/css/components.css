@@ -38,7 +38,10 @@
   }
   .bg-space {
     background-image: url("/space-background-vector.svg");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100% auto;
+    backface-visibility: hidden;
   }
   .bg-blur {
     @apply before:absolute before:inset-0 before:-z-10 before:backdrop-blur;

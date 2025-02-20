@@ -22,6 +22,7 @@ const Desktop = () => {
   return (
     <>
       {/*<Railway/>*/}
+      <div className="absolute inset-0 bg-space -z-10"/>
 
       <Navbar isHeroAnchorInView={isAnchorInView}/>
       <NebulaWrapper>

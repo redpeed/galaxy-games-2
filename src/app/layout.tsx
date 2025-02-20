@@ -3,8 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 export const viewport: Viewport = {
-  initialScale: 0.8,
-  width: 'device-width'
+  initialScale: 1,
+  minimumScale: 1,
+  width: 'device-width',
 }
 
 const chakraPetch = localFont({
@@ -57,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${chakraPetch.variable} overflow-x-hidden font-chakra-petch w-full bg-space scroll-smooth`}
+        className={`${chakraPetch.variable} overflow-x-hidden font-chakra-petch w-full scroll-smooth`}
       >
         {children}
       </body>

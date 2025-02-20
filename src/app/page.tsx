@@ -6,6 +6,7 @@ import useApp from "@/hooks/useApp";
 
 export default function Home() {
   const {isMobile, zoom} = useApp();
+
   return (
     <>
       {/*Desktop view*/}
@@ -15,7 +16,7 @@ export default function Home() {
       }
 
       {/*Mobile view*/}
-      {isMobile && <main className={"md:hidden relative max-w-full z-10"}>
+      {isMobile && <main className={"md:hidden relative max-w-full z-10"} >
         <Mobile/>
       </main>
       }
