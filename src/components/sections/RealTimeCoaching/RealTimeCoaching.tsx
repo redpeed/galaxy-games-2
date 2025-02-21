@@ -107,6 +107,7 @@ const RealTimeCoaching = () => {
                     loop={true}
                     muted={true}
                     playsinline
+                    preload="auto"
 
                   />
                 </div>

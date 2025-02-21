@@ -99,6 +99,7 @@ const MakeItAccessible = () => {
               loop={true}
               muted={true}
               playsinline
+              preload="auto"
 
             />
           </VideoFrame>

@@ -27,6 +27,8 @@ function VideoVerticalFramed({url, playing}: {url: string; playing: boolean} ) {
           loop={true}
           muted={true}
           playsinline
+          preload="auto"
+
         />
       </div>
     </div>

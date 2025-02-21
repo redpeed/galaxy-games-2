@@ -88,6 +88,7 @@ const Polaris = () => {
                 loop={true}
                 muted={true}
                 playsinline
+                preload="auto"
 
               />
             </div>

@@ -70,6 +70,8 @@ const PolarisInActionMobile = () => {
               loop={true}
               muted={true}
               playsinline
+              preload="auto"
+
             />
           </div>
         </div>

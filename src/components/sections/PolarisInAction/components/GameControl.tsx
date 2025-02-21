@@ -43,6 +43,7 @@ const GameControl = () => {
               loop={true}
               muted={true}
               playsinline
+              preload="auto"
 
             />
           </div>

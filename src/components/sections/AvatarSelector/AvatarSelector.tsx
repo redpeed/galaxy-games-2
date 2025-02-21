@@ -79,6 +79,7 @@ const AvatarSelector = () => {
               loop={true}
               muted={true}
               playsinline
+              preload="auto"
 
             />
           </VideoFrame>
