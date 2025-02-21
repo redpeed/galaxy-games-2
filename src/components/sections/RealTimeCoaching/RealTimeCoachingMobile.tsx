@@ -49,8 +49,7 @@ const RealTimeCoachingMobile = () => {
         <h4 className={"text-20 font-bold"}>ENHANCE YOUR GAMING EXPERIENCE</h4>
         <p>Polaris COACH is your ultimate <b>gaming teammate</b> combining advanced tools to guide you in real time.</p>
         <p>From understanding your gameplay to offering tailored advice,
-          it’s like having a <b>coach</b>
-          who truly knows you and the game.</p>
+          it’s like having a <b>coach</b> who truly knows you and the game.</p>
       </TwoSidesBlurredBox>
 
 

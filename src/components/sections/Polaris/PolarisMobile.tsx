@@ -27,7 +27,7 @@ const PolarisMobile = () => {
         Polaris AI isn’t just for Haunted Space.
       </MobileTextBox>
       <MobileTextBox className={"mt-[20px]"}>
-        game studios everywhere will be able to <b>use our API </b> to <b> integrate the Coaching Assistant</b> and <b>Accessibility
+        Soon, game studios everywhere will be able to <b>use our API </b> to <b> integrate the Coaching Assistant</b> and <b>Accessibility
         modules</b> into <b>their own games</b>, creating more inclusive and engaging experiences for all players.
       </MobileTextBox>
 
