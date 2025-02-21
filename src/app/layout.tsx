@@ -36,19 +36,19 @@ const chakraPetch = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Galaxy Games: Explore Immersive Gaming Universes",
-  description: "Galaxy Games blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
+  title: "Galaxy Lab: Explore Immersive Gaming Universes",
+  description: "Galaxy Lab blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
   openGraph: {
-    description: "Galaxy Games blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
-    title: "Galaxy Games",
+    description: "Galaxy Lab blends console gaming with blockchain. Featured on PlayStation, Xbox, IGN. Backed by Seedify. Epic MegaGrant winner with Unreal Engine 5.",
+    title: "Galaxy Lab",
     images: ['https://opengraph.b-cdn.net/production/images/e7f924aa-4b71-4380-a18b-ec23b4e1732f.png?token=fGrRMfeP5DvBpMuc23-vy6zqwrsPa2e59NjMovPt23g&height=630&width=1200&expires=33272453739']
   },
   metadataBase: new URL('https://www.galaxygamestudio.io/'),
-  publisher: 'Galaxy Games',
+  publisher: 'Galaxy Lab',
   alternates: {
     canonical: 'https://www.galaxygamestudio.io/'
   },
-  keywords: ["Galaxy Games", "blockchain gaming", "Web3 games", "NFT gaming", "sci-fi games", "crypto gaming", "GameFi", "play-to-earn", "gaming studio", "blockchain technology"],
+  keywords: ["Galaxy Lab", "blockchain gaming", "Web3 games", "NFT gaming", "sci-fi games", "crypto gaming", "GameFi", "play-to-earn", "gaming studio", "blockchain technology"],
 };
 
 export default function RootLayout({
