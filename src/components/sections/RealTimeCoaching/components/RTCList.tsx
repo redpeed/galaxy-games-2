@@ -55,9 +55,9 @@ function RTCListItem({icon, title, content, isActive, onHover}: {
 }) {
   return (<div
     className={cn(
-      "flex items-center justify-center sm:justify-start gap-5 opacity-0 sm:opacity-25 transition-all cursor-pointer",
-      "absolute inset-0 sm:static",
-      {"opacity-100 md:opacity-100 sm:-translate-x-[40px]": isActive}
+      "flex items-center justify-center md:justify-start gap-5 opacity-0 md:opacity-25 transition-all cursor-pointer",
+      "absolute inset-0 md:static",
+      {"opacity-100 md:opacity-100 md:-translate-x-[40px]": isActive}
     )}
     onMouseOver={()=>onHover()}
   >
@@ -72,7 +72,7 @@ function RTCListItem({icon, title, content, isActive, onHover}: {
     </div>
     <div className="flex flex-col">
       <h3 className={"font-bold text-20 uppercase"}>{title}</h3>
-      <p className={"font-light text-20 sm:text-base lg:text-20 lg:text-sm"}>{content}</p>
+      <p className={"font-light text-20 md:text-base lg:text-20 lg:text-sm"}>{content}</p>
     </div>
   </div>)
 }

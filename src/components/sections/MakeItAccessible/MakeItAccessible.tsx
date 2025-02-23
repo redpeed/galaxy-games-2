@@ -67,7 +67,7 @@ const MakeItAccessible = () => {
       }
       titleClassName={"relative flex items-center justify-center"}
       titleBorderBg={"linear-gradient(#FBC900,#FBC900)"}
-      wrapperClassName={"lg:w-[1300px] xl:w-full lg:px-10 2xl:px-0 "}
+      wrapperClassName={"lg:w-[1300px]- xl:w-full lg:px-10 2xl:px-0 "}
       pageSubtitle={<FadeInSection>
         <p>Polaris ACCESSIBILITY breaks barriers making gaming <b>inclusive for everyone</b>. <br/>
           With <b>innovative tools</b> it ensures no one is left behind, no matter their challenges.
@@ -89,20 +89,22 @@ const MakeItAccessible = () => {
         </div>
 
         <div className={"w-full lg:w-1/2 flex-shrink-0 relative z-30 flex justify-center"} ref={videoFrameRef}>
-          <VideoFrame variant={"normal"} className={"pb-[49%] xl:max-w-[620px]"}>
-            <ReactPlayer
-              url='https://vimeo.com/1057594331'
-              width='100%'
-              height='100%'
-              controls={false}
-              playing={isVideoVisible}
-              loop={true}
-              muted={true}
-              playsinline
-              preload="auto"
+          <div className="w-full max-w-[90%] xl:max-w-[620px] relative">
+            <VideoFrame variant={"normal"} className={"pb-[59%]"}>
+              <ReactPlayer
+                url='https://vimeo.com/1057594331'
+                width='100%'
+                height='100%'
+                controls={false}
+                playing={isVideoVisible}
+                loop={true}
+                muted={true}
+                playsinline
+                preload="auto"
 
-            />
-          </VideoFrame>
+              />
+            </VideoFrame>
+          </div>
         </div>
         <div className={"lg:w-1/2 relative z-20 flex items-center justify-end xl:pl-[50px]"}>
           <FadeInSection>

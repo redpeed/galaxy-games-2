@@ -18,6 +18,8 @@ const PolarisInAction = () => {
       <div
         className={"relative w-[160%] lg:w-[1487px] h-0 pb-[160%] -mb-[60%] lg:-mb-[200px] lg:pb-[103.2%] max-w-none lg:max-w-full -top-[300px] xl:-top-[400px] mt-[15%] lg:mt-[10%] xl:mt-[3%] xl:-mb-[300px]"}
       >
+        <div
+          className="hidden md:block absolute z-10 left-1/2 bottom-[100%] h-[200px] w-[1px] border-l border-purple "/>
         <div className="absolute inset-0"
              style={{
                backgroundImage: "url('/pia-bg-shape.svg')",

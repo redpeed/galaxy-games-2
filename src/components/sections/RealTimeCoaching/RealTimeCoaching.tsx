@@ -48,7 +48,7 @@ const RealTimeCoaching = () => {
         preTitle={
           <div className={"flex flex-col items-center w-full top-[50px]"}>
             <div
-              className="hidden md:block absolute z-10 left-0 bottom-[100%] h-[700px] translate-y-[50px] w-[1px] border-l border-purple "/>
+              className="hidden md:block absolute z-10 left-0 bottom-[100%] h-[800px] translate-y-[50px] w-[1px] border-l border-purple "/>
             <div className="hidden md:block absolute z-10 left-0 top-[50px] h-[1px] w-full" style={{
               backgroundImage: "linear-gradient(to right, var(--purple) 0%, transparent 40%, transparent 60%, var(--purple) 100%)"
             }}/>
@@ -63,7 +63,7 @@ const RealTimeCoaching = () => {
         }
         titleBorderBg={"linear-gradient(#FF2600,#FF2600)"}
         titleClassName={"flex items-center justify-center"}
-        wrapperClassName={"lg:w-[1300px] xl:w-full lg:px-10 2xl:px-0 "}
+        wrapperClassName={"lg:w-[1300px]- xl:w-full lg:px-10 2xl:px-0 "}
         pageSubtitle={<div className={"flex flex-col relative"}>
           <div className="absolute top-[150px] xl:top-0" data-sticky-activator/>
           <div className="flex flex-col gap-5 font-light">
@@ -114,7 +114,7 @@ const RealTimeCoaching = () => {
               ))}
             </VideoFrame>
           </div>
-          <div className={"sm:w-full xl:w-1/2 relative -ml-[22px] py-[25px] pr-[30px] pl-[80px] z-40"}>
+          <div className={"w-full lg:w-8/12 xl:w-1/2 relative -ml-[22px] py-[25px] pr-[30px] pl-[80px] z-40"}>
             <div className="hidden xl:block">
               <BlurredBox
                 borderBg={"linear-gradient(var(--purple),var(--purple))"}
