@@ -4,6 +4,12 @@
   --purple: #AB00FF;
 }
 
+html, body {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
 body {
   color: #fff;
 }
