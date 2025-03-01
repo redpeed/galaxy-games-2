@@ -104,7 +104,7 @@ function Games() {
               <div className="-mr-2">
                 <Image src="/desktop/hero logo-04.png" className="w-72" alt="Hero logo" width={288} height={42}/>
               </div>
-              <p className="text-[#015cba] ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
+              <p className="text-orange ml-5 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 SURVIVAL
               </p>
             </div>
@@ -127,7 +127,7 @@ function Games() {
                 className="btn-primary px-8 mb-7 2xl:w-52"
                 onClick={() => window.open('https://store.epicgames.com/en-US/p/haunted-space-5525ee', '_blank')}
               >
-                Coming Soon
+                WISHLIST NOW
               </button>
 
             </div>
@@ -177,7 +177,7 @@ function Games() {
                   height={40}
                 />
               </div>
-              <p className="text-violet-700 text-xs 2xl:text-base md:text-lg font-semibold font-exo">
+              <p className="text-orange text-xs 2xl:text-base md:text-lg font-semibold font-exo">
                 MINIGAME
               </p>
             </div>
@@ -186,7 +186,7 @@ function Games() {
             className="flex flex-col-reverse md:flex-row items-center justify-between max-w-4xl mx-auto 2xl:max-w-7xl relative text-center md:text-left">
             <div className="max-w-48" data-aos="fade-right">
               <p className="mb-7 leading-tight text-slate-200">
-                Survive as long as you can, collect rewards and earn GAGA tokens
+                Survive as long as you can, collect rewards and earn tokens
               </p>
               <a
                 className="btn-primary flex items-center justify-center gap-2 px-12 mb-3 mx-auto md:mx-0 2xl:w-52"

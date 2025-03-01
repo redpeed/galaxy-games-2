@@ -24,7 +24,7 @@ function Tokens() {
             <div className="text-lg tracking-[2.7px] text-slate-200">
               Discover
             </div>
-            <h3 className="text-4xl">Gaga Tokens</h3>
+            <h3 className="text-4xl">GALAXY LAB Tokens</h3>
           </div>
         </div>
         <div

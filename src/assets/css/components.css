@@ -3,7 +3,7 @@
 @layer components {
 
   .btn-primary {
-    @apply bg-gradient-to-b tracking-[2.2px] from-[#510bbc] to-[#210fb4] text-white uppercase text-sm py-2 rounded-full hover:bg-gradient-to-t hover:to-purple-800 hover:from-indigo-800 duration-300 before:ease-out relative overflow-hidden transition-all 2xl:py-2 2xl:text-lg;
+    @apply bg-orange  hover:bg-orange-light tracking-[2.2px] text-white uppercase text-sm py-2 rounded-full duration-300 before:ease-out relative overflow-hidden transition-all 2xl:py-2 2xl:text-lg;
   }
 
   /* Custom styles for navbar items */

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Logo from "@/components/common/Logo";
 
 function Hero() {
 
@@ -23,19 +24,13 @@ function Hero() {
 
       <div className="relative z-10 flex flex-col pt-20 justify-center items-center h-full text-center text-white">
         <div data-aos="fade-up" data-aos-delay="600">
-          <Image
-            src="/desktop/logo_v.png"
-            className="w-[18rem] 2xl:w-[30rem]"
-            alt="Galaxy Games Logo"
-            width={288}
-            height={89}
-          />
+          <Logo className="w-[24rem] 2xl:w-[30rem] px-4"/>
         </div>
         <a
           data-aos="fade-up"
           data-aos-delay="850"
           href="#games"
-          className="mt-4 btn-primary px-10 2xl:mt-8  "
+          className="mt-8 btn-primary px-10 2xl:mt-8  "
         >
           Learn More
         </a>

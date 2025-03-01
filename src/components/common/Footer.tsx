@@ -5,6 +5,7 @@ import { FaTelegram, FaXTwitter } from 'react-icons/fa6';
 import { SiOpensea } from 'react-icons/si';
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "@/components/common/Logo";
 
 function Footer() {
   const [email, setEmail] = useState('');
@@ -52,11 +53,11 @@ function Footer() {
   };
 
   return (
-    <div className="bg-primary text-slate-200 pt-10 pb-3 px-2">
+    <div className="bg-primary text-slate-200 pt-10 pb-3 px-4">
       <div data-aos="zoom-in" className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between mb-10 gap-5 md:gap-0">
           <div className="flex-[0.3]">
-            <Image src="/desktop/logo_v.png" width={160} height={50} className="w-40 mb-5" alt="logo" />
+            <Logo className="w-[250px] mb-5 pr-10"/>
           </div>
 
           {/* Navigation links in the footer */}
@@ -99,7 +100,7 @@ function Footer() {
                   <span className="line-through hover:text-gray-300 cursor-not-allowed">
                     STAKING PLATFORM
                   </span>
-                  <span className="text-xs text-violet-500 uppercase font-bold whitespace-nowrap -mt-1 font-exo">
+                  <span className="text-xs text-orange uppercase font-bold whitespace-nowrap -mt-1 font-exo">
                     COMING SOON
                   </span>
                 </div>
@@ -111,32 +112,18 @@ function Footer() {
           <div className="flex-[0.4] text-right">
             <div className="hidden md:flex items-center justify-center md:justify-end gap-5 mb-8">
               <a
-                href="https://discord.gg/p6zZDvgNUW "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaDiscord size={25} />
-              </a>
-              <a
-                href="https://twitter.com/Galaxy_Games__"
+                href="https://x.com/Galaxy_Lab_"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaXTwitter size={25} />
               </a>
               <a
-                href="https://t.me/hauntedspace "
+                href="https://t.me/galaxylabofficial"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaTelegram size={25} />
-              </a>
-              <a
-                href="https://opensea.io/collection/hsgenesispass "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SiOpensea size={25} />
               </a>
             </div>
 
@@ -164,7 +151,7 @@ function Footer() {
                     } text-white uppercase text-sm py-2 px-4 rounded-r-full duration-200 border ${
                       isSubmitted
                         ? 'bg-green-500 border-green-600 cursor-not-allowed'
-                        : 'bg-gradient-to-b from-purple-600 to-indigo-600 hover:bg-gradient-to-t hover:to-purple-800 hover:from-indigo-800 border-purple-600'
+                        : 'bg-gradient-to-b from-orange-light to-orange hover:bg-orange-light border-orange'
                     }`}
                   >
                     {isSubmitted ? 'Email submitted!' : 'SIGN UP'}
@@ -207,7 +194,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-slate-700 text-slate-400 tracking-[2.7px] pt-3 pb-2 flex flex-col sm:flex-row items-center justify-between text-xs 2xl:text-base">
-          <p>© 2024 GALAXY GAMES FZCO. All Rights Reserved.</p>
+          <p>© 2025 GALAXY GAMES FZCO. All Rights Reserved.</p>
           <p>
             <Link
               href="/privacy-policy"

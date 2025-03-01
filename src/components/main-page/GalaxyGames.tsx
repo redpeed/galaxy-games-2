@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Logo from "@/components/common/Logo";
+import React from "react";
 
 function GalaxyGames() {
   return (
@@ -19,13 +21,7 @@ function GalaxyGames() {
             height={64}
           />
           <div>
-            <Image
-              src="/desktop/logo_v.png"
-              className="w-44 -mt-8 mb-16"
-              alt="Galaxy Games Logo"
-              width={176}
-              height={54}
-            />
+            <Logo className="w-60 -mt-8 mb-16"/>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-7 lg:gap-12">

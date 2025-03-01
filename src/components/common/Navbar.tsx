@@ -1,14 +1,14 @@
 "use client"
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 // Import images and other resources as needed
 import useScrollToTop from "@/hooks/useScrollToTop";
 import Link from "next/link";
+import Logo from "@/components/common/Logo";
 import Image from "next/image";
 
 const navLinks = [
   { id: 1, title: 'Home', href: '/#home' },
-  // Removed the Web3 link here
   { id: 3, title: 'Games', href: '/#games' },
   { id: 4, title: 'Token', href: '/#token' },
   { id: 5, title: 'Roadmap', href: '/#roadmap' },
@@ -41,13 +41,10 @@ function Navbar() {
     <>
       {/* Mobile Nav */}
       <nav
-        className="absolute flex lg:hidden top-0 left-0 right-0 justify-between items-center px-4 py-3 text-white z-20"
-        style={{ backgroundColor: '#01001e' }}
+        className="absolute flex lg:hidden top-0 left-0 right-0 justify-between items-center px-4 py-3 bg-black text-white z-20"
       >
         <div className="flex items-center">
-          <Image src={"/desktop/logo-one.svg"} alt="Logo" className="w-10 h-10" width={40} height={40}/>
-          {/* If you want to include the second logo */}
-          {/* <img src={logoTwo} alt="Logo Two" className="w-20 ml-2" /> */}
+          <Logo className={"w-auto h-5"}/>
         </div>
 
         <div
@@ -104,7 +101,7 @@ function Navbar() {
 
         {/* Logo at the Top Center */}
         <div className="flex justify-center">
-          <Image src={"/desktop/logo-one.svg"} alt="Logo" className="w-20 h-20" width={80} height={80}/>
+          <Logo className="w-auto h-10 px-4"/>
         </div>
 
         {/* Menu Items */}
@@ -125,12 +122,11 @@ function Navbar() {
       <nav
         data-aos="fade-down"
         data-aos-delay="500"
-        className="hidden absolute top-0 left-0 right-0 lg:flex justify-between items-center px-6 py-3 text-white z-20 bg-slate-900"
+        className="hidden absolute top-0 left-0 right-0 lg:flex justify-between items-center px-6 py-3 text-white z-20 bg-black"
       >
         <div className="flex items-center space-x-4 gap-3">
           <Link href={"/"} className="flex items-center justify-center gap-6">
-            <Image src={"/desktop/logo-one.svg"} alt="Logo 1" className="w-7" width={28} height={28} />
-            <Image src={"/desktop/logo-two.svg"} alt="Logo 2" className="w-20" width={80} height={25}/>
+            <Logo className="w-auto h-4"/>
           </Link>
 
           <ul className="hidden lg:flex uppercase tracking-[2.7px]">

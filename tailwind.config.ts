@@ -11,6 +11,13 @@ export default {
       screens: {
         '2xl': '2500px',
       },
+      height:{
+        15: "3.75rem"
+      },
+      colors: {
+        "orange": "#ff6b4f",
+        "orange-light": "#f5917e",
+      },
       backgroundImage: {
         hero: "url('https://cdn.hauntedspace.io/galaxy-games/generic%20clips_BG_Static.webp')",
         web3: "url('https://cdn.hauntedspace.io/galaxy-games/space1.webp')",
